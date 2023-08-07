@@ -25,38 +25,63 @@ export const HeaderBar: React.FC = () => {
     >
       <a
         className={logoLinkStyle}
-        href="https://www.microsoft.com"
-        aria-label="Microsoft"
+        href="https://www.digitalearthpacific.org"
+        aria-label="DEP"
       >
         <img
           alt=""
           className={logoImageStyle}
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+          src="images/dep_square.png"
           role="presentation"
           aria-hidden="true"
         />
       </a>
       <div className={headerPipeStyle}>|</div>
+
       <HeaderLink to="/">
         <Text block variant="large" className={productNameStyle}>
-          Planetary Computer
+          Digital Earth Pacific
         </Text>
       </HeaderLink>
+
+      <HeaderLink isNav to="/applications">
+        Regional Products
+      </HeaderLink>
+
       <HeaderLink isNav to="/explore">
-        Explore
+        Data Explorer
       </HeaderLink>
+
+       
       <HeaderLink isNav to="/catalog">
-        Data Catalog
+        Library
       </HeaderLink>
-      <HeaderLink external to="/compute">
-        Hub
+      
+
+      <HeaderLink external to="https://dep-staging.westeurope.cloudapp.azure.com/">
+        Analytical Hub
       </HeaderLink>
+
+      {/* 
       <HeaderLink isNav to="/applications">
         Applications
       </HeaderLink>
-      <HeaderLink isNav to="/docs">
-        Documentation
+      */}
+
+       
+      <HeaderLink isNav to="/workshop">
+        Trainings
       </HeaderLink>
+      
+
+      <div className={rightAligned}>
+        <Stack horizontal verticalAlign="center">
+          Pacific Community (SPC)
+        </Stack>
+      </div>
+
+
+      {/*
       <div className={rightAligned}>
         <Stack horizontal verticalAlign="center" tokens={authSectionTokens}>
           {!status.isLoggedIn && (
@@ -70,6 +95,8 @@ export const HeaderBar: React.FC = () => {
           </Feature>
         </Stack>
       </div>
+    */}
+
     </Stack>
   );
 };

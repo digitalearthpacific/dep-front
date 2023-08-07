@@ -9,13 +9,16 @@ const BannerFooter = () => {
       <ImageStrip />
       <div className="home-footer-container">
         <div className="home-footer-grid grid-content">
+        
+          <img style={{width:300}} src="https://risk.spc.int/static/geonode/img/spc.png"/>
+
           <Text
             block
             variant="xxLargePlus"
             className="home-footer-item"
             style={{ color: "#fff" }}
           >
-            Building a global environmental network
+            
           </Text>
           <div className="home-footer-item">
             <Text
@@ -24,52 +27,13 @@ const BannerFooter = () => {
               style={{
                 color: "#fff",
                 marginBottom: 20,
+                marginLeft: 80,
+                textAlign: "justify",
               }}
             >
-              The Planetary Computer is only as strong as the partner community that
-              is building applications on it. If you are interested in scaling your
-              environmental sustainability work with the power of the cloud,{" "}
-              <Link
-                underline
-                href="mailto:planetarycomputer@microsoft.com"
-                style={{ color: "#fff", fontWeight: 600 }}
-              >
-                contact us
-              </Link>
-              .
+             The Digital Earth Pacific Programme will help assure a safe and prosperous future for Pacific Islands communities, and actively contribute to the regeneration and health of the region, and the planet.
             </Text>
-            <Text
-              block
-              variant="large"
-              style={{
-                color: "#fff",
-              }}
-            >
-              The Planetary Computer API and Hub are currently available in preview.
-              If you're interested in developing on our platform,{" "}
-              <RouterLink
-                to="/account/request"
-                style={{
-                  color: "#fff",
-                  fontWeight: 600,
-                  textDecoration: "underline",
-                }}
-              >
-                request access now
-              </RouterLink>
-              .
-              <p>
-                Learn more about Microsoft's{" "}
-                <Link
-                  underline
-                  href="https://www.microsoft.com/en-us/corporate-responsibility/sustainability"
-                  style={{ color: "#fff", fontWeight: 600 }}
-                >
-                  commitment to sustainability
-                </Link>
-                .
-              </p>
-            </Text>
+           
           </div>
         </div>
       </div>

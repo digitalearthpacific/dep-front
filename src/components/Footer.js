@@ -47,6 +47,7 @@ const Footer = ({ onGrid = true }) => {
             data-m='{"cN":"Corp links_cont","cT":"Container","id":"c7c1c1m1r1a2","sN":7,"aN":"c1c1m1r1a2"}'
             style={{ margin: 0 }}
           >
+           {/* 
             <li id="c-uhff-footer_sitemap">
               <a
                 className="c-uhff-link"
@@ -132,10 +133,10 @@ const Footer = ({ onGrid = true }) => {
                 Service Status
               </a>
             </li>
-
+ */}
             <li className="x-hidden-focus">
               {" "}
-              © Microsoft {new Date().getFullYear()}
+              © Pacific Community (SPC) {new Date().getFullYear()}
             </li>
           </ul>
         </nav>

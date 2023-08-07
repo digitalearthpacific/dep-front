@@ -10,7 +10,7 @@ export const Home = () => {
     <div
       className="hero"
       style={{
-        background: "url(./images/planet-sunrise-wide@1.jpg)",
+        background: "url(./images/banner/T19.JPG)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
@@ -35,7 +35,7 @@ export const Home = () => {
             },
           }}
         >
-          A Planetary Computer for a Sustainable Future
+          Digital Earth Pacific
         </Text>
       </div>
     </div>
@@ -56,22 +56,25 @@ export const Home = () => {
         <Text
           block
           variant="xxLarge"
-          style={{ textAlign: "center", maxWidth: "550px" }}
+          style={{ textAlign: "center", fontVariant: "small-caps" }}
         >
-          Supporting sustainability decision-making with the power of the cloud
+          Enabling sustainability decision-making for the Pacific Peoples using Earth Observations at scale
         </Text>
         <Text
           block
           variant="large"
-          style={{ margin: "1.8rem 0", textAlign: "center", maxWidth: "815px" }}
+          style={{ margin: "1.0rem 0", textAlign: "justify", maxWidth: "815px" }}
         >
-          The Planetary Computer combines a multi-petabyte catalog of global
-          environmental data with intuitive APIs, a flexible scientific environment
-          that allows users to answer global questions about that data, and
-          applications that put those answers in the hands of conservation
-          stakeholders.
+          <br></br>
+The Digital Earth Pacific project will support the development of an operational earth observation system that takes decades of freely available data and brings it together in a sensible way within the Pacific context. It will allow Member States to make more informed decisions based on good information to overcome the challenges we face such as climate change, food security and disasters.
+<br/><br/>
+This solution will help us understand the changes in our environment such as the impact sea-level rise has on our communities, planning for disaster preparedness, response and recovery, and productivity of agricultural fields and potential impacts by changes in weather. 
+<br/><br/>
+Leveraging this technology will allow the development of decision-ready products that will support concise and analysed information for decision makers whilst providing needed data and information to support regional and global commitments such as the 2050 Strategy for the Blue Pacific Continent, the Paris Agreement or the Sustainable Development Goals.
+<br/><br/><br/>
         </Text>
       </div>
+      {/* 
       <div className="home-resources layout-container">
         <div className="layout-row grid-content">
           <Resource title="Data Catalog" iconName="ExploreData" href="/catalog">
@@ -99,6 +102,7 @@ export const Home = () => {
           </Resource>
         </div>
       </div>
+       */}
     </Layout>
   );
 };

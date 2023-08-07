@@ -10,12 +10,9 @@ import appConfig from "../config/apps.yml";
 const Applications = () => {
   const banner = (
     <DefaultBanner>
-      <h1>Applications</h1>
+      <h1>Regional Products</h1>
       <p>
-        The Planetary Computer puts global-scale environmental monitoring
-        capabilities in the hands of scientists, developers, and policy makers,
-        enabling data-driven decision making. Learn about some of the applications
-        our partners are building as part of the Planetary Computer.
+      The Digital Earth Pacific Programme will help assure a safe and prosperous future for Pacific Islands communities, and actively contribute to the regeneration and health of the region, and the planet.
       </p>
     </DefaultBanner>
   );
