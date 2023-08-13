@@ -53,7 +53,7 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink>
 
        
-      <HeaderLink isNav to="/catalog">
+      <HeaderLink isNav to="/library">
         Library
       </HeaderLink>
       
@@ -69,8 +69,12 @@ export const HeaderBar: React.FC = () => {
       */}
 
        
-      <HeaderLink isNav to="/workshop">
-        Trainings
+      <HeaderLink external to="https://github.com/digitalearthpacific/depal">
+        Trainings & Workshop
+      </HeaderLink>
+
+      <HeaderLink isNav to="/news">
+        Press
       </HeaderLink>
       
 

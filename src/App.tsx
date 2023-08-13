@@ -7,6 +7,7 @@ import { registerCustomIcons } from "utils/icons";
 import { usePrefetchContent } from "utils/requests";
 import AccountSurvey from "pages/AccountSurvey";
 import Applications from "pages/Applications";
+import News from "pages/News";
 import Collection from "pages/Collection";
 import Catalog from "./pages/Catalog2";
 import CatalogGroup from "pages/CatalogGroup";
@@ -45,6 +46,7 @@ function App() {
             }
           />
           <Route path="/applications" element={<Applications />} />
+          <Route path="/news" element={<News />} />
           <Route path="/dataset/group/:groupId" element={<CatalogGroup />} />
           <Route path="/dataset/storage/:id" element={<StorageCollectionDetail />} />
           <Route path="/dataset/:id" element={<Collection />} />

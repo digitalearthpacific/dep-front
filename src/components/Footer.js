@@ -40,7 +40,7 @@ const Footer = ({ onGrid = true }) => {
         borderColor: theme.palette.neutralQuaternaryAlt,
       }}
     >
-      <div className={`c-uhff-base ${navClass}`} style={{ paddingBottom: 2 }}>
+      <div align="center" className={`c-uhff-base ${navClass}`} style={{ paddingBottom: 2 }}>
         <nav aria-label="Microsoft corporate links">
           <ul
             className="c-list f-bare"
@@ -134,7 +134,7 @@ const Footer = ({ onGrid = true }) => {
               </a>
             </li>
  */}
-            <li className="x-hidden-focus">
+            <li align="center" className="x-hidden-focus">
               {" "}
               © Pacific Community (SPC) {new Date().getFullYear()}
             </li>
