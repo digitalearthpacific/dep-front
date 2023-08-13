@@ -1,20 +1,6 @@
-# Planetary Computer Data Catalog
+# DEP Front
 
-Note: This repository serves as a reference implementation for interacting with
-Planetary Computer APIs on Azure. Ths code supports the production deployment of
-the Planetary Computer Data Catalog and Explorer applications. This repository
-is not meant to be reusable in other situations without significant
-modification, and the repository maintainers cannot provide any support for
-non-development deployments of this code. Additionally, this application is under
-constant development, including some significant planned refactors.
-
-That said, it is hoped that components or examples contained here will be
-helpful for users developing applications using the open-source components also
-used by the Planetary Computer, or against Planetary Computer APIs themselves.
-Please review the [terms of use](https://planetarycomputer.microsoft.com/terms).
-
-To file general issues or ask questions, please visit the [Planetary Computer
-repository](https://github.com/microsoft/PlanetaryComputer).
+### Based on Planetary Data Catalog
 
 ## Data Catalog
 
