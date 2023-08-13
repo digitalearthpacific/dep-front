@@ -20,8 +20,8 @@ export const capitalize = (value: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-export const titleCase = (str: string) => {
-  return str.split(" ").map(capitalize).join(" ");
+export const titleCase = (str: string, splitChar: string = " ") => {
+  return str.split(splitChar).map(capitalize).join(" ");
 };
 
 export const isort = (a: string, b: string) =>
@@ -139,10 +139,33 @@ export function buildGitHubUrl(launcher: ILauncherConfig | string): string {
   some DOM manipulations to alter the structure for accessibility reasons
 */
 export const a11yPostProcessDom = (dom: Document) => {
-  // Find img tags without an alt tag, and add one
+  // Find img tags without an alt tag, and make it a presentation role
   dom
     .querySelectorAll("img:not([alt]")
-    .forEach(el => el.setAttribute("alt", "Calculated image output"));
+    .forEach(el => el.setAttribute("role", "presentation"));
+
+  // Look for anchor tags with only an image inside, and make give the anchor
+  // a title attribute
+  dom.querySelectorAll("a > img").forEach(el => {
+    el.parentElement?.setAttribute("title", "Link to image content");
+  });
+
+  // Look for .dataframe with an empty header and add the text id. It may
+  // also have a value on the next header row, so remove that as well.
+  dom
+    .querySelectorAll(".dataframe > thead > tr > th:nth-child(1)")
+    .forEach(header => {
+      if (header.textContent === "") {
+        const nextHeader =
+          header.parentElement?.nextElementSibling?.firstElementChild;
+        if (nextHeader && nextHeader.textContent) {
+          header.textContent = nextHeader.textContent;
+          nextHeader.parentElement?.remove();
+        } else {
+          header.textContent = "row_id";
+        }
+      }
+    });
 
   // Keyboard users needs a tabindex set on scrollable content if they
   // otherwise do not have focusable content. These python codeblocks are

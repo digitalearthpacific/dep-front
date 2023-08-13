@@ -7,9 +7,17 @@ interface OpenApiSpecProps {
 }
 
 const OpenApiSpec: React.FC<OpenApiSpecProps> = ({ specUrl }) => {
+  const postFix = () => {
+    // Need to fix a select element without a label
+    const el = document.getElementsByTagName("select")[0];
+    if (el) {
+      el.ariaLabel = "Select a server";
+    }
+  };
+
   return (
     <>
-      <SwaggerUI url={specUrl} docExpansion="list" />
+      <SwaggerUI url={specUrl} docExpansion="list" onComplete={postFix} />
     </>
   );
 };

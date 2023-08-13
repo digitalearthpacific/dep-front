@@ -18,6 +18,16 @@
     - title: Learn
       url: https://www.digitalearthpacific.org
 
+- title: Annual Cloudless Mosaics
+  description:
+    10m/2 Cloudless Mosaics from 2016 - 2023
+  thumbnailUrl: ./images/apps/landcover.png
+  links:
+    - title: Explore
+      url: https://www.digitalearthpacific.org
+    - title: Learn
+      url: https://www.digitalearthpacific.org
+
 - title: Land Cover Change Detection
   description:
     Land Cover Change Analysis over 30 years
