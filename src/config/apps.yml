@@ -4,7 +4,7 @@
   thumbnailUrl: ./images/apps/coastlines.png
   links:
     - title: Explore
-      url: https://www.digitalearthpacific.org
+      url: http://54.206.120.152:3001
     - title: Learn
       url: https://www.digitalearthpacific.org
 
@@ -14,17 +14,17 @@
   thumbnailUrl: ./images/apps/mangroves.png
   links:
     - title: Explore Land Classification
-      url: https://www.digitalearthpacific.org
+      url: http://54.206.120.152:3001
     - title: Learn
       url: https://www.digitalearthpacific.org
 
 - title: Annual Cloudless Mosaics
   description:
     10m/2 Cloudless Mosaics from 2016 - 2023
-  thumbnailUrl: ./images/apps/landcover.png
+  thumbnailUrl: ./images/apps/cloudless-samoa.png
   links:
     - title: Explore
-      url: https://www.digitalearthpacific.org
+      url: http://54.206.120.152:3001
     - title: Learn
       url: https://www.digitalearthpacific.org
 
@@ -34,7 +34,7 @@
   thumbnailUrl: ./images/apps/landcover.png
   links:
     - title: Explore
-      url: https://www.digitalearthpacific.org
+      url: http://54.206.120.152:3001
     - title: Learn
       url: https://www.digitalearthpacific.org
 
@@ -44,7 +44,7 @@
   thumbnailUrl: ./images/apps/carbonplan-wide-fs8.jpg
   links:
     - title: Explore
-      url: https://www.digitalearthpacific.org
+      url: http://54.206.120.152:3001
     - title: Learn
       url: https://www.digitalearthpacific.org
 
