@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54d10ab0.css",
+    "main.js": "/static/js/main.e5a2d470.js",
+    "static/css/394.598da43a.chunk.css": "/static/css/394.598da43a.chunk.css",
+    "static/js/394.04f2bdd2.chunk.js": "/static/js/394.04f2bdd2.chunk.js",
+    "static/js/603.0a0076f8.chunk.js": "/static/js/603.0a0076f8.chunk.js",
+    "static/js/811.abc80156.chunk.js": "/static/js/811.abc80156.chunk.js",
+    "static/js/590.22f7fa27.chunk.js": "/static/js/590.22f7fa27.chunk.js",
+    "static/css/953.f2ca44d7.chunk.css": "/static/css/953.f2ca44d7.chunk.css",
+    "static/js/953.0f7653c5.chunk.js": "/static/js/953.0f7653c5.chunk.js",
+    "static/js/494.c88847e0.chunk.js": "/static/js/494.c88847e0.chunk.js",
+    "static/css/18.f0b9017d.chunk.css": "/static/css/18.f0b9017d.chunk.css",
+    "static/js/18.5a6b0ce7.chunk.js": "/static/js/18.5a6b0ce7.chunk.js",
+    "static/js/736.c7fa4af8.chunk.js": "/static/js/736.c7fa4af8.chunk.js",
+    "index.html": "/index.html",
+    "main.54d10ab0.css.map": "/static/css/main.54d10ab0.css.map",
+    "main.e5a2d470.js.map": "/static/js/main.e5a2d470.js.map",
+    "394.598da43a.chunk.css.map": "/static/css/394.598da43a.chunk.css.map",
+    "394.04f2bdd2.chunk.js.map": "/static/js/394.04f2bdd2.chunk.js.map",
+    "603.0a0076f8.chunk.js.map": "/static/js/603.0a0076f8.chunk.js.map",
+    "811.abc80156.chunk.js.map": "/static/js/811.abc80156.chunk.js.map",
+    "590.22f7fa27.chunk.js.map": "/static/js/590.22f7fa27.chunk.js.map",
+    "953.f2ca44d7.chunk.css.map": "/static/css/953.f2ca44d7.chunk.css.map",
+    "953.0f7653c5.chunk.js.map": "/static/js/953.0f7653c5.chunk.js.map",
+    "494.c88847e0.chunk.js.map": "/static/js/494.c88847e0.chunk.js.map",
+    "18.f0b9017d.chunk.css.map": "/static/css/18.f0b9017d.chunk.css.map",
+    "18.5a6b0ce7.chunk.js.map": "/static/js/18.5a6b0ce7.chunk.js.map",
+    "736.c7fa4af8.chunk.js.map": "/static/js/736.c7fa4af8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54d10ab0.css",
+    "static/js/main.e5a2d470.js"
+  ]
+}
