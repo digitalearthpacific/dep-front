@@ -26,6 +26,9 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
+      - name: Install Dependencies
+        id: npm-install
+        run: npm install
       - name: Build optimized bundle
         id: build-bundle
         run: ./scripts/cibuild
