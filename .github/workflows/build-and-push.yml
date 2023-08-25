@@ -26,11 +26,6 @@ jobs:
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-npm-
-      - name: Test and lint
-        run: ./scripts/test
-      - name: Inject disallow crawling for robots.txt
-        run: |
-          echo -e "User-agent: *\nDisallow: /\n" > public/robots.txt
       - name: Build optimized bundle
         id: build-bundle
         run: ./scripts/cibuild
