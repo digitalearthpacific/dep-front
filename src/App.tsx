@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { initializeIcons } from "@uifabric/icons";
 
 import { initializeFeatures } from "utils/featureFlags";
@@ -32,7 +32,7 @@ function App() {
   );
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -65,7 +65,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
