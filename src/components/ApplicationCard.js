@@ -3,7 +3,7 @@ import { Link, Text } from "@fluentui/react";
 import ChevronLink from "./controls/ChevronLink";
 
 const ApplicationCard = ({ app }) => {
-  const { title, thumbnailUrl, description, links } = app;
+  const { title, thumbnailUrl, description, links, methodology, uses, citation } = app;
 
   return (
     <div className="api-datasource-item">
@@ -16,6 +16,21 @@ const ApplicationCard = ({ app }) => {
           {description}
         </p>
       </Link>
+
+      <p>
+        <b>Methodology : </b>{methodology}
+      </p>
+
+      <p>
+        <b>Use Cases : </b>{uses}
+      </p>
+
+      <p>
+        <u>Citation</u> : {citation}
+      </p>
+
+
+
       <Text block variant="medium" style={{ fontWeight: 600 }}>
         {links.map(({ title, url }) => {
           return (

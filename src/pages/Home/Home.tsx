@@ -58,7 +58,7 @@ export const Home = () => {
           variant="xxLarge"
           style={{ textAlign: "center", fontVariant: "small-caps" }}
         >
-          Enabling sustainability decision-making for the Pacific Peoples using Earth Observations at scale
+          Enabling sustainability decision-making for the Pacific Peoples using Earth Observations at scale to Achieve Sustainable Development
         </Text>
         <Text
           block
@@ -66,12 +66,19 @@ export const Home = () => {
           style={{ margin: "1.0rem 0", textAlign: "justify", maxWidth: "815px" }}
         >
           <br></br>
-The Digital Earth Pacific project will support the development of an operational earth observation system that takes decades of freely available data and brings it together in a sensible way within the Pacific context. It will allow Member States to make more informed decisions based on good information to overcome the challenges we face such as climate change, food security and disasters.
-<br/><br/>
-This solution will help us understand the changes in our environment such as the impact sea-level rise has on our communities, planning for disaster preparedness, response and recovery, and productivity of agricultural fields and potential impacts by changes in weather. 
-<br/><br/>
-Leveraging this technology will allow the development of decision-ready products that will support concise and analysed information for decision makers whilst providing needed data and information to support regional and global commitments such as the 2050 Strategy for the Blue Pacific Continent, the Paris Agreement or the Sustainable Development Goals.
-<br/><br/><br/>
+          The Digital Earth Paciﬁc program is developing an operational Earth and ocean observation system that takes decades
+of freely available data and brings it together in a sensible way within the Paciﬁc context. It will allow Member States to
+make more informed decisions based on good and timely information to overcome the challenges we face such as
+climate change, food security and disasters.
+          <br /><br />
+          This free and open digital public infrastructure will help the region understand the changes in the environment such as
+the impact of sea-level rise on our communities, planning for disaster preparedness, response and recovery, and
+productivity of agricultural ﬁelds and potential impacts by changes in weather.
+          <br /><br />
+          Leveraging this technology will allow the development of decision-ready products that will better inform decision
+makers whilst providing needed data and information to support regional and global commitments such as the 2050
+Strategy for the Blue Paciﬁc Continent, the Paris Agreement and the Sustainable Development Goals.
+          <br /><br /><br />
         </Text>
       </div>
       {/* 

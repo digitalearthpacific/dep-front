@@ -41,7 +41,7 @@ const Footer = ({ onGrid = true }) => {
       }}
     >
       <div align="center" className={`c-uhff-base ${navClass}`} style={{ paddingBottom: 2 }}>
-        <nav aria-label="Microsoft corporate links">
+        <nav aria-label="DEP">
           <ul
             className="c-list f-bare"
             data-m='{"cN":"Corp links_cont","cT":"Container","id":"c7c1c1m1r1a2","sN":7,"aN":"c1c1m1r1a2"}'

@@ -1,0 +1,31 @@
+- title: Pacific Coastlines Change
+  description: Pacific Coastlines beta version product includes coastline change detection since the year 2000 for Pacific Island Country and Territories (PICTs). This product will provide ongoing monitoring of coastline change detection. This provides insights into processes including erosion (where landmass area decreases) and accretion or deposition (where landmass area increases). 
+  methodology: This draft product is based on a workflow used to map annual coastline locations in Australia and Africa as part of the Digital Earth Australia and Digital Earth Africa projects. For each year all available Landsat satellite data was collected for each location, then filtered to remove clouds and other noise. Annual mosaics were created by calculating the median image values among times of near-average (0-m) sea level using a tidal model. Finally, a water discrimination technique was applied which allowed delineation of exact coastlines at the subpixel level. Results will be further refined with additional noise removal techniques and validated against survey data.
+  uses: This product can be applied to analysis around coastal development planning, exposure of economic assets and risk of hazards. The product also sheds light on the correlation between past physical developments, natural disasters and coastal responses to these events.
+  citation: Anderson, J. Singh. S. (2023). Coastline change detection - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/coastlines.png
+  links:
+    - title: Explore Coastlines Change
+      url: https://maps.digitalearthpacific.org/#share=s-pzzMOVCCoPWNeWFs33Sg
+
+- title: Water Observations from Space (WOFS)
+  description:  Water Observations from Space (WoFS) beta version product for Water Observations from Space (WOfS) is an annual summary of the temporal and spatial extent of surface water over landscapes. The results display each pixel of surface water within three categories - ‘wet’, ‘dry’ and ‘invalid’. In essence, this highlights where water is usually or where it is rarely. The results are visualised to compare points in time spanning over a year, a season or multiple years. The dataset extends back historically to 2013.
+  methodology: For each year, all available Landsat data was collected, then filtered to remove clouds. A complex decision tree algorithm was applied, producing a water mask for each date. Annual mosaics were created by calculating the percentage of dates within each year when a particular location contained water. 
+  uses: The product may be used for a range of applications including monitoring surface water access, detecting intra-annual and interannual changes in water bodies over decades including droughts, flooding, water harvesting and storage. This can be appl reservoir levels in dams, ecological connectivity, surface-groundwater relationships.
+  citation: Anderson, J. (2023). Water Observations from Space (WOfS) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/wofs.png
+  links:
+    - title: Explore WoFS
+      url: https://maps.digitalearthpacific.org/#share=s-azdGYqKlUn1BWnljBhtB
+
+
+- title: Pacific Mangroves Change Detection
+  description: Pacific Mangroves beta version product is an extension of the Global Mangrove Watch (GMV v3, 2020). which shows the extent of mangrove ecosystems across Pacific Island Countries and Territories (PICTs). The changes in mangroves extent was further classified into three categories of closed (high-density), open (lower density) and non-mangrove. This was used as the baseline training layer where mangrove categories between 2016 and 2022 were analysed. 
+  methodology: Mangrove extents and classifications were based on annually derived values of the normalized difference vegetation index (NDVI) applied to a median composite of cloud-masked Sentinel-2 satellite data. 
+  uses: The DEP Mangroves product supports PICTs to map the extent of mangroves as a requirement to baseline and ongoing Measurement, Reporting and Verification (MRV) for carbon removal projects, REDD+ reporting, national GHG inventory reporting requirements and National Forest Inventories. The applications also extend beyond blue carbon ecosystems to biodiversity and natural shoreline protection mapping. 
+  citation: Singh. S., Anderson, J. (2023). Mangrove extent - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/mangroves.png
+  links:
+    - title: Explore Mangroves Change
+      url: https://maps.digitalearthpacific.org/#share=s-ux1MvvWAfZueW286xCPv
+

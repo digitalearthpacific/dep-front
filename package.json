@@ -43,6 +43,7 @@
     "marked": "^4.0.17",
     "minisearch": "^5.1.0",
     "next-share": "^0.18.4",
+    "npm": "^10.2.1",
     "number-abbreviate": "^2.0.0",
     "process": "^0.11.10",
     "query-string": "^7.1.3",

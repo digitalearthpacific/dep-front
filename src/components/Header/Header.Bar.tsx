@@ -49,7 +49,7 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink>
 
       <HeaderLink isNav to="/explore">
-        Data Explorer
+        Global Data Explorer
       </HeaderLink>
 
        
@@ -68,13 +68,22 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink>
       */}
 
-       
+       {/*
       <HeaderLink external to="https://github.com/digitalearthpacific/depal">
         Trainings & Workshop
+      </HeaderLink>
+      */}
+
+      <HeaderLink isNav to="/community">
+        Community
       </HeaderLink>
 
       <HeaderLink isNav to="/news">
         Press
+      </HeaderLink>
+
+      <HeaderLink isNav to="/governance">
+        Governance
       </HeaderLink>
       
 

@@ -9,6 +9,7 @@ import AccountSurvey from "pages/AccountSurvey";
 import Applications from "pages/Applications";
 import News from "pages/News";
 import Library from "pages/Library";
+import Governance from "pages/Governance";
 import Collection from "pages/Collection";
 import Catalog from "./pages/Catalog2";
 import CatalogGroup from "pages/CatalogGroup";
@@ -17,6 +18,7 @@ import NotFound from "pages/NotFound";
 import Terms from "pages/Terms";
 import Layout from "./components/Layout";
 import StorageCollectionDetail from "pages/StorageCollectionDetail";
+import Community from "pages/Community";
 
 const Explore = React.lazy(() => import("pages/Explore"));
 const Docs = React.lazy(() => import("pages/Docs/Docs.index"));
@@ -49,6 +51,8 @@ function App() {
           <Route path="/applications" element={<Applications />} />
           <Route path="/news" element={<News />} />
           <Route path="/library" element={<Library />} />
+          <Route path="/governance" element={<Governance />} />
+          <Route path="/community" element={<Community />} />
           <Route path="/dataset/group/:groupId" element={<CatalogGroup />} />
           <Route path="/dataset/storage/:id" element={<StorageCollectionDetail />} />
           <Route path="/dataset/:id" element={<Collection />} />

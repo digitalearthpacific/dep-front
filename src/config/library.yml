@@ -10,10 +10,14 @@
   published: April, 2023
   banner: https://www.spc.int/sites/default/files/styles/featured_image_thumbnail/public/featuredimages/resources/2022-01/Digital%20earth%20pacific%20-%20needs%20assessment%20report%20september%20201%20-%20Pacific%20Community%20SPC%20-%20Cover.JPG?itok=OJfK0zcB
 
-
-- title: Digital Earth Pacific One-Pager Brief
-  url: https://purl.org/spc/digilib/doc/xnv6z
+- title: Digital Earth Pacific Technical Roadmap
+  url: https://deppcpublicstorage.blob.core.windows.net/output/website/SC_01.03_DE_Pacific_Technical_Roadmap_v1.0.pdf 
   source: D4D Insights, Pacific Community (SPC)
-  published: March, 2021
+  published: August, 2023
   banner: https://www.spc.int/sites/default/files/styles/featured_image_thumbnail/public/featuredimages/resources/2021-03/coastal%20change%20in%20vanuatu.jpg?itok=CkMmNpE_
 
+- title: Digital Earth Pacific Governance Framework
+  url: https://deppcpublicstorage.blob.core.windows.net/output/website/SC_01.04_DE_Pacific_Governance_2023_1.pdf
+  source: Pacific Community (SPC)
+  published: June, 2023
+  banner: ./images/governance.png
