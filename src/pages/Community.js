@@ -29,26 +29,26 @@ const Community = () => {
 
 
         <tr>
-          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-cyclone-winston">The impact of Digital Earth Pacific Cyclone Winston in Viti Levu, Fiji</a></td>
-          <td style={{ padding: '10px' }}>The impact of Digital Earth Pacific Cyclone Winston in Viti Levu, Fiji</td>
+          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-cyclone-winston">DEP monitoring mangroves damage and recovery following TC Winston, Viti Levu, Fiji</a></td>
+          <td style={{ padding: '10px' }}>DEP monitoring mangroves damage and recovery following TC Winston, Viti Levu, Fiji</td>
           <td style={{ padding: '10px' }}>SPC</td>
         </tr>
 
         <tr>
-          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-fijis-illegal-gravel">The impact of Digital Earth Pacific Fiji Illegal Gravel</a></td>
-          <td style={{ padding: '10px' }}>The impact of Digital Earth Pacific Fiji Illegal Gravel</td>
+          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-fijis-illegal-gravel">DEP monitoring gravel extraction for economic development in Fiji</a></td>
+          <td style={{ padding: '10px' }}>DEP monitoring gravel extraction for economic development in Fiji</td>
           <td style={{ padding: '10px' }}>SPC</td>
         </tr>
 
         <tr>
-          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-mangroves-and-seagrass">The Impact of Digital Earth Pacific Cyclone Winston in Viti Levu, Fiji</a></td>
-          <td style={{ padding: '10px' }}>The Impact of Digital Earth Pacific Cyclone Winston in Viti Levu, Fiji</td>
+          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-mangroves-and-seagrass">DEP in management and conservation of blue carbon ecosystems</a></td>
+          <td style={{ padding: '10px' }}>DEP in management and conservation of blue carbon ecosystems, mangroves and seagrass</td>
           <td style={{ padding: '10px' }}>SPC</td>
         </tr>
 
         <tr>
-          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/a-conversation-with/2023/10/the-impact-of-digital-earth-pacific-in-tonga-ahis-story">The impact of Digital Earth Pacific in Tonga -Ahi's Story</a></td>
-          <td style={{ padding: '10px' }}>The impact of Digital Earth Pacific in Tonga -Ahi's Story</td>
+          <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/a-conversation-with/2023/10/the-impact-of-digital-earth-pacific-in-tonga-ahis-story">DEP Access to data and innovative tools, Ahi’s story in Tonga </a></td>
+          <td style={{ padding: '10px' }}>DEP Access to data and innovative tools, Ahi’s story in Tonga</td>
           <td style={{ padding: '10px' }}>SPC</td>
         </tr>
 
