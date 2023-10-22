@@ -48,9 +48,9 @@ const Governance = () => {
 
         <table>
           <tr>
-            <th style={{textAlign: 'left'}}>Name</th>
-            <th style={{textAlign: 'left'}}>Role</th>
-            <th style={{textAlign: 'left'}}>Affiliation</th>
+            <th style={{ textAlign: 'left' }}>Name</th>
+            <th style={{ textAlign: 'left' }}>Role</th>
+            <th style={{ textAlign: 'left' }}>Affiliation</th>
           </tr>
 
 

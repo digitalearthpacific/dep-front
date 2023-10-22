@@ -30,13 +30,13 @@ export const HeaderOverflow: React.FC = () => {
       <Stack horizontal>
         <a
           className={logoLinkStyle}
-          href="https://www.microsoft.com"
-          aria-label="Microsoft"
+          href="https://www.digitalearthpacific.org"
+          aria-label="DEP"
         >
           <img
             alt=""
             className={logoImageStyle}
-            src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+            src="images/dep_square.png"
             role="presentation"
             aria-hidden="true"
           />
@@ -44,7 +44,7 @@ export const HeaderOverflow: React.FC = () => {
         <div className={headerPipeStyle}>|</div>
         <HeaderLink to="/">
           <Text block variant="large" className={productNameStyle}>
-            Planetary Computer
+            Digital Earth Pacific
           </Text>
         </HeaderLink>
       </Stack>
@@ -62,23 +62,26 @@ export const HeaderOverflow: React.FC = () => {
           customWidth="200px"
         >
           <Stack tokens={panelLinkTokens} verticalAlign="start">
-            <HeaderLink align="start" isNav to="/explore">
-              Explore
-            </HeaderLink>
-            <HeaderLink align="start" isNav to="/catalog">
-              Data Catalog
-            </HeaderLink>
-            <HeaderLink align="start" external to="/compute">
-              Hub
-            </HeaderLink>
             <HeaderLink align="start" isNav to="/applications">
-              Applications
+              Regional Products
             </HeaderLink>
-            <HeaderLink align="start" isNav to="/docs">
-              Documentation
+            <HeaderLink align="start" isNav to="/explore">
+              Global Data Explorer
             </HeaderLink>
-            <HeaderLink align="start" isNav to="/account/request">
-              Request Access
+            <HeaderLink align="start" isNav to="/library">
+              Library
+            </HeaderLink>
+            <HeaderLink align="start" isNav external to="https://dep-staging.westeurope.cloudapp.azure.com/">
+              Analytical Hub
+            </HeaderLink>
+            <HeaderLink align="start" isNav to="/community">
+              Community
+            </HeaderLink>
+            <HeaderLink align="start" isNav to="/news">
+              Press
+            </HeaderLink>
+            <HeaderLink align="start" isNav to="/governance">
+              Governance
             </HeaderLink>
           </Stack>
         </Panel>
