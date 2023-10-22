@@ -27,6 +27,12 @@ const Community = () => {
           <th>Creator</th>
         </tr>
 
+        <tr>
+          <td style={{ padding: '20px' }}><a target="_blank" href="https://preview.shorthand.com/nd7hBYuUXHkfRiN7">Digital Earth Pacific partnering with governments for capacity development</a></td>
+          <td style={{ padding: '10px' }}>Digital Earth Pacific partnering with governments for capacity development in Tonga</td>
+          <td style={{ padding: '10px' }}>SPC</td>
+        </tr>
+
 
         <tr>
           <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-cyclone-winston">DEP monitoring mangroves damage and recovery following TC Winston, Viti Levu, Fiji</a></td>
