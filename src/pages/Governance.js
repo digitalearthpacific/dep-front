@@ -91,8 +91,8 @@ const Governance = () => {
           </tr>
           <tr>
             <td style={{ padding: '10px' }}>David Borges</td>
-            <td style={{ padding: '10px' }}>Systems Engineering Office Committee on Earth Observation Satellites</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
+            <td style={{ padding: '10px' }}>Systems Engineering Office</td>
+            <td style={{ padding: '10px' }}>Committee on Earth Observation Satellites (CEOS)</td>
           </tr>
           <tr>
             <td style={{ padding: '10px' }}>Stuart Minchin</td>
