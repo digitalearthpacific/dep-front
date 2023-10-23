@@ -13,7 +13,7 @@ const Governance = () => {
       <p style={{ textAlign: "justify" }}>
         The Digital Earth Pacific governance structure for Digital Earth Pacific take into account existing mechanisms
         and structures in order to leverage decision-making processes already in place without creating
-        redundancy. As such, the DEP governance structure will consist of the CRGA at the strategic
+        redundancy. As such, the DEP governance structure will consist of the Committee of Representatives of Governments and Administrations (CRGA) at the strategic
         level, the Steering Committee at the tactical level, and the Program Management Team at the
         operational level.
       </p>
@@ -34,12 +34,13 @@ const Governance = () => {
         latest technological trends and emerging issues; key needs, challenges and opportunities
         across countries; alignment with existing programs and projects; opportunities for resource
         mobilization; and stakeholder engagement.
+        <br/><br/>
         The Steering Committee will be an independent governance mechanism serving the interests of
         the Digital Earth Pacific program. It will comprise experts from the Pacific Region and
         international organizations and be multi-stakeholder in nature inclusive of governments, civil
         society and private sector. The Steering Committee will provide guidance to the Digital Earth
         Pacific Program Management Team where actions, decision and progress will be presented to
-        the annual CRGA meeting.
+        the annual Committee of Representatives of Governments and Administrations(CRGA) meeting.
 
         <br /><br />
         <img style={{ width: '60%' }} src="./images/steering.png" />
@@ -48,31 +49,15 @@ const Governance = () => {
 
         <table>
           <tr>
-            <th style={{ textAlign: 'left' }}>Name</th>
-            <th style={{ textAlign: 'left' }}>Role</th>
-            <th style={{ textAlign: 'left' }}>Affiliation</th>
+            <th style={{ textAlign: 'left', padding: '10px' }}>Name</th>
+            <th style={{ textAlign: 'left', padding: '10px' }}>Role</th>
+            <th style={{ textAlign: 'left', padding: '10px' }}>Affiliation</th>
           </tr>
 
-
-          <tr>
-            <td style={{ padding: '10px' }}>Maree Wilson</td>
-            <td style={{ padding: '10px' }}>Branch Head, National Earth and Marine Observations</td>
-            <td style={{ padding: '10px' }}>Geoscience Australia</td>
-          </tr>
           <tr>
             <td style={{ padding: '10px' }}>John Strickland</td>
-            <td style={{ padding: '10px' }}>Director Emergency Management Cook Islands, Office of the Prime Minister</td>
+            <td style={{ padding: '10px' }}>Director, Emergency Management Cook Islands, Office of the Prime Minister</td>
             <td style={{ padding: '10px' }}>Cook Islands</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Stuart Chape</td>
-            <td style={{ padding: '10px' }}>Director, Island and Ocean Ecosystems </td>
-            <td style={{ padding: '10px' }}>SPREP</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Dr Isoa Korovulavula</td>
-            <td style={{ padding: '10px' }}>Director of the Institute of Applied Sciences University of South Pacific</td>
-            <td style={{ padding: '10px' }}>USP</td>
           </tr>
           <tr>
             <td style={{ padding: '10px' }}>Dr. Raijeli Taga</td>
@@ -80,33 +65,38 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Fiji</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Adelle (Lukes) Isechal</td>
-            <td style={{ padding: '10px' }}>MSP ( Marine Spatial Planning) Coordinator Ministry of Agriculture, Fisheries and the Environment </td>
-            <td style={{ padding: '10px' }}>Palau</td>
+            <td style={{ padding: '10px' }}>Maree Wilson</td>
+            <td style={{ padding: '10px' }}>Branch Head, National Earth and Marine Observations</td>
+            <td style={{ padding: '10px' }}>Geoscience Australia (GA)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Nick Pion</td>
-            <td style={{ padding: '10px' }}>Hydrography Manager National Maritime Safety Authority</td>
-            <td style={{ padding: '10px' }}>PNG</td>
+            <td style={{ padding: '10px' }}>Yana Gevorgyan</td>
+            <td style={{ padding: '10px' }}>Director Secretariat</td>
+            <td style={{ padding: '10px' }}>Group on Earth Observations (GEO)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Tuvuki Ketedromo</td>
-            <td style={{ padding: '10px' }}>Chief of Water Quality Division Environment Protection Agency</td>
-            <td style={{ padding: '10px' }}>RMI</td>
+            <td style={{ padding: '10px' }}>Aditya Agrawal</td>
+            <td style={{ padding: '10px' }}>Founder D4DInsights</td>
+            <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Moriana Phillip</td>
-            <td style={{ padding: '10px' }}>General Manager Environment Protection Agency</td>
-            <td style={{ padding: '10px' }}>RMI</td>
+            <td style={{ padding: '10px' }}>Dr John Marra</td>
+            <td style={{ padding: '10px' }}>Regional Climate Services Director</td>
+            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Joy Papao</td>
-            <td style={{ padding: '10px' }}>UNITAR In-Country Technical Expert</td>
-            <td style={{ padding: '10px' }}>Solomon Islands</td>
+            <td style={{ padding: '10px' }}>Kirsten Larsen</td>
+            <td style={{ padding: '10px' }}>Chief of Marine Ecosystems Section</td>
+            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Sachindra Singh</td>
-            <td style={{ padding: '10px' }}>Geoinformatics Team Leader</td>
+            <td style={{ padding: '10px' }}>David Borges</td>
+            <td style={{ padding: '10px' }}>Systems Engineering Office Committee on Earth Observation Satellites</td>
+            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Stuart Minchin</td>
+            <td style={{ padding: '10px' }}>Director General </td>
             <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
           </tr>
           <tr>
@@ -115,19 +105,39 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Stuart Minchin</td>
-            <td style={{ padding: '10px' }}>Director General </td>
+            <td style={{ padding: '10px' }}>Sachindra Singh</td>
+            <td style={{ padding: '10px' }}>Geoinformatics Team Leader</td>
             <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Yana Gevorgyan</td>
-            <td style={{ padding: '10px' }}>Director, Secretariat</td>
-            <td style={{ padding: '10px' }}>Group on Earth Observations</td>
+            <td style={{ padding: '10px' }}>Adelle (Lukes) Isechal</td>
+            <td style={{ padding: '10px' }}>Marine Spatial Planning Coordinator Ministry of Agriculture, Fisheries and the Environment </td>
+            <td style={{ padding: '10px' }}>Palau</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Dr Jothiganesh Sundaram</td>
-            <td style={{ padding: '10px' }}>Regional Technical Lead for Climate and Weather-related Risks</td>
-            <td style={{ padding: '10px' }}>World Food Programme</td>
+            <td style={{ padding: '10px' }}>Nick Pion</td>
+            <td style={{ padding: '10px' }}>Hydrography Manager, National Maritime Safety Authority</td>
+            <td style={{ padding: '10px' }}>Papua New Guinea</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Tuvuki Ketedromo</td>
+            <td style={{ padding: '10px' }}>Chief of Water Quality Division Environment Protection Agency</td>
+            <td style={{ padding: '10px' }}>Republic of Marshall Islands</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Moriana Phillip</td>
+            <td style={{ padding: '10px' }}>General Manager Environment Protection Agency</td>
+            <td style={{ padding: '10px' }}>Republic of Marshall Islands</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Joy Papao</td>
+            <td style={{ padding: '10px' }}>UNITAR In-Country Technical Expert</td>
+            <td style={{ padding: '10px' }}>Solomon Islands</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Stuart Chape</td>
+            <td style={{ padding: '10px' }}>Director, Island and Ocean Ecosystems </td>
+            <td style={{ padding: '10px' }}>SPREP</td>
           </tr>
           <tr>
             <td style={{ padding: '10px' }}>Taaniela Kula</td>
@@ -140,30 +150,22 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Tuvalu</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>David Borges</td>
-            <td style={{ padding: '10px' }}>Systems Engineering Office Committee on Earth Observation Satellites</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Aditya Agrawal</td>
-            <td style={{ padding: '10px' }}>Founder D4DInsights</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Dr John Marra</td>
-            <td style={{ padding: '10px' }}>Regional Climate Services Director</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Kirsten Larsen</td>
-            <td style={{ padding: '10px' }}>Chief of Marine Ecosystems Section</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration</td>
+            <td style={{ padding: '10px' }}>Dr Isoa Korovulavula</td>
+            <td style={{ padding: '10px' }}>Director of the Institute of Applied Sciences University of South Pacific</td>
+            <td style={{ padding: '10px' }}>University of the South Pacific (USP)</td>
           </tr>
           <tr>
             <td style={{ padding: '10px' }}>Jeffrey Kaitip</td>
-            <td style={{ padding: '10px' }}>Acting Director Department of Urban Affairs Planning (DUAP), Ministry of Internal Affairs</td>
-            <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration</td>
+            <td style={{ padding: '10px' }}>Acting Director Department of Urban Affairs Planning, Ministry of Internal Affairs</td>
+            <td style={{ padding: '10px' }}>Vanuatu</td>
           </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Dr Jothiganesh Sundaram</td>
+            <td style={{ padding: '10px' }}>Regional Technical Lead for Climate and Weather-related Risks</td>
+            <td style={{ padding: '10px' }}>World Food Programme (WFP)</td>
+          </tr>
+
+
 
 
         </table>
