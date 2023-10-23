@@ -42,7 +42,7 @@ const Applications = () => {
 
       <div style={{ marginLeft: "90px" }}>
         <h1>DEP Products by Country</h1>
-        <a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-se4QkfmUsarYesLIzoXr">Story Maps</a>
+        <a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-se4QkfmUsarYesLIzoXr">Country Story Map</a>
 
         <table>
           <tr>
@@ -74,7 +74,6 @@ const Applications = () => {
           </tr>
           <tr>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-tI7CEpu5eppZylPk4WFN'><img src='./images/flags/SOLOMON_ISLANDS.jpg' /><br />Solomon Islands</a></td>
-
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-8TfBUX9K0HmvAMxtHuR9'><img src='./images/flags/TOKELAU.jpg' /><br />Tokelau</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-cmNNQySp0DliN0ijKwKP'><img src='./images/flags/TONGA.jpg' /><br />Tonga</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-7hRHbemKnEv4YfdC7Y7I'><img src='./images/flags/TUVALU.jpg' /><br />Tuvalu</a></td>
