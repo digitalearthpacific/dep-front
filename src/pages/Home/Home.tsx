@@ -56,9 +56,17 @@ export const Home = () => {
         <Text
           block
           variant="xxLarge"
-          style={{ textAlign: "center", fontVariant: "small-caps" }}
-        >
-          Enabling sustainability decision-making for the Pacific Peoples using Earth Observations at scale to Achieve Sustainable Development
+          style={{ textAlign: "center", fontVariant: "small-caps" }}        >
+          Enabling decision-making for the Pacific Peoples using Earth Observations at scale to Achieve Sustainable Development
+        </Text>
+        <Text
+          block
+          variant="xLarge"
+          style={{ textAlign: "center" }}>
+
+            <br/> 
+          Digital Earth Pacific provides decision-makers with the information needed to make sound decisions addressing the Pacific's challenges,<br/>most notably climate change, food security and disaster. 
+
         </Text>
         <Text
           block
@@ -66,18 +74,14 @@ export const Home = () => {
           style={{ margin: "1.0rem 0", textAlign: "justify", maxWidth: "815px" }}
         >
           <br></br>
-          The Digital Earth Paciﬁc program is developing an operational Earth and ocean observation system that takes decades
-of freely available data and brings it together in a sensible way within the Paciﬁc context. It will allow Member States to
-make more informed decisions based on good and timely information to overcome the challenges we face such as
-climate change, food security and disasters.
+          The Digital Earth Pacific (DEP) is an operational earth observation system that uses decades of satellite data to show how local environments are changing over time. This includes changes to landcover and land use to better target humanitarian assistance after disasters, mapping of changing coastlines caused by climate change or storm events, and understanding how mangrove growth has changed without having to map this manually .
           <br /><br />
-          This free and open digital public infrastructure will help the region understand the changes in the environment such as
-the impact of sea-level rise on our communities, planning for disaster preparedness, response and recovery, and
-productivity of agricultural ﬁelds and potential impacts by changes in weather.
+          DEP will allow Pacific Community (SPC) SPC member states to make more informed decisions based on timely information. 
+ 
+ It is a free and open digital public infrastructure helps the region understand the changes in our environment quickly and at a fraction of the cost of previous data systems, at scale. 
+ 
           <br /><br />
-          Leveraging this technology will allow the development of decision-ready products that will better inform decision
-makers whilst providing needed data and information to support regional and global commitments such as the 2050
-Strategy for the Blue Paciﬁc Continent, the Paris Agreement and the Sustainable Development Goals.
+          Digital Earth Pacific helps us achieve our 2050 Leaders vision for our Blue Pacific Continent and underpins the progress being made towards the Paris Agreement and our Sustainable Development Goals. 
           <br /><br /><br />
         </Text>
       </div>

@@ -31,7 +31,7 @@ const BannerFooter = () => {
                 textAlign: "justify",
               }}
             >
-             The Digital Earth Pacific Programme will help assure a safe and prosperous future for Pacific Islands communities, and actively contribute to the regeneration and health of the region, and the planet.
+             Digital Earth Pacific helps assure a safe and prosperous future for Pacific peoples. 
             </Text>
            
           </div>
