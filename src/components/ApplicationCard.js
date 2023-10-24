@@ -25,9 +25,9 @@ const ApplicationCard = ({ app }) => {
         <b>Use Cases : </b>{uses}
       </p>
 
-      <p>
+      {/* <p>
         <u>Citation</u> : {citation}
-      </p>
+      </p> */}
 
 
 

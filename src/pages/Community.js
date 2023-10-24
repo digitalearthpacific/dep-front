@@ -34,7 +34,7 @@ const Community = () => {
 
       <div style={{ marginLeft: "90px" }}>
 
-        <table style={{width: "75%"}}>
+        <table style={{ width: "75%" }}>
 
 
           <tr>
@@ -74,7 +74,7 @@ const Community = () => {
           </tr>
         </table>
 
-<hr/>
+        <hr />
 
         <i>Credit: Pacific Community (SPC) Coporate Communications Division and ESRI Global Community Engagement Team</i>
 

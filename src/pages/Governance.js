@@ -11,11 +11,7 @@ const Governance = () => {
     <DefaultBanner style={{ width: '100%' }}>
       <h1>Governance Framework</h1>
       <p style={{ textAlign: "justify" }}>
-        The Digital Earth Pacific governance structure for Digital Earth Pacific take into account existing mechanisms
-        and structures in order to leverage decision-making processes already in place without creating
-        redundancy. As such, the DEP governance structure will consist of the Committee of Representatives of Governments and Administrations (CRGA) at the strategic
-        level, the Steering Committee at the tactical level, and the Program Management Team at the
-        operational level.
+        The Digital Earth Pacific governance framework ensures inclusivity of Pacific Island Country and Territories voices so that products and services developed by the program are responsive to the needs and challenges of the region. The annual Committee of Representatives of Governments and Administrations (CRGA) will provide strategic guidance, while the DEP Steering Committee will be both strategic and tactical.
       </p>
     </DefaultBanner>
   );
@@ -34,13 +30,7 @@ const Governance = () => {
         latest technological trends and emerging issues; key needs, challenges and opportunities
         across countries; alignment with existing programs and projects; opportunities for resource
         mobilization; and stakeholder engagement.
-        <br/><br/>
-        The Steering Committee will be an independent governance mechanism serving the interests of
-        the Digital Earth Pacific program. It will comprise experts from the Pacific Region and
-        international organizations and be multi-stakeholder in nature inclusive of governments, civil
-        society and private sector. The Steering Committee will provide guidance to the Digital Earth
-        Pacific Program Management Team where actions, decision and progress will be presented to
-        the annual Committee of Representatives of Governments and Administrations(CRGA) meeting.
+        
 
         <br /><br />
         <img style={{ width: '60%' }} src="./images/steering.png" />
@@ -55,12 +45,18 @@ const Governance = () => {
           </tr>
 
           <tr>
+            <td style={{ padding: '10px' }}>David Borges</td>
+            <td style={{ padding: '10px' }}>Systems Engineering Office</td>
+            <td style={{ padding: '10px' }}>Committee on Earth Observation Satellites (CEOS)</td>
+          </tr>
+
+          <tr>
             <td style={{ padding: '10px' }}>John Strickland</td>
             <td style={{ padding: '10px' }}>Director, Emergency Management Cook Islands, Office of the Prime Minister</td>
             <td style={{ padding: '10px' }}>Cook Islands</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Dr. Raijeli Taga</td>
+            <td style={{ padding: '10px' }}>Raijeli Taga</td>
             <td style={{ padding: '10px' }}>PS Ministry of Lands and Natural Resources Ministry of Lands and Natural Resources</td>
             <td style={{ padding: '10px' }}>Fiji</td>
           </tr>
@@ -74,13 +70,9 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Director Secretariat</td>
             <td style={{ padding: '10px' }}>Group on Earth Observations (GEO)</td>
           </tr>
+
           <tr>
-            <td style={{ padding: '10px' }}>Aditya Agrawal</td>
-            <td style={{ padding: '10px' }}>Founder D4DInsights</td>
-            <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>Dr John Marra</td>
+            <td style={{ padding: '10px' }}>John Marra</td>
             <td style={{ padding: '10px' }}>Regional Climate Services Director</td>
             <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
           </tr>
@@ -89,11 +81,7 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Chief of Marine Ecosystems Section</td>
             <td style={{ padding: '10px' }}>National Oceanic and Atmospheric Administration (NOAA)</td>
           </tr>
-          <tr>
-            <td style={{ padding: '10px' }}>David Borges</td>
-            <td style={{ padding: '10px' }}>Systems Engineering Office</td>
-            <td style={{ padding: '10px' }}>Committee on Earth Observation Satellites (CEOS)</td>
-          </tr>
+
           <tr>
             <td style={{ padding: '10px' }}>Stuart Minchin</td>
             <td style={{ padding: '10px' }}>Director General </td>
@@ -107,6 +95,11 @@ const Governance = () => {
           <tr>
             <td style={{ padding: '10px' }}>Sachindra Singh</td>
             <td style={{ padding: '10px' }}>Geoinformatics Team Leader</td>
+            <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
+          </tr>
+          <tr>
+            <td style={{ padding: '10px' }}>Aditya Agrawal</td>
+            <td style={{ padding: '10px' }}>Founder D4DInsights</td>
             <td style={{ padding: '10px' }}>Pacific Community (SPC)</td>
           </tr>
           <tr>
@@ -160,7 +153,7 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Vanuatu</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Dr Jothiganesh Sundaram</td>
+            <td style={{ padding: '10px' }}>Jothiganesh Sundaram</td>
             <td style={{ padding: '10px' }}>Regional Technical Lead for Climate and Weather-related Risks</td>
             <td style={{ padding: '10px' }}>World Food Programme (WFP)</td>
           </tr>

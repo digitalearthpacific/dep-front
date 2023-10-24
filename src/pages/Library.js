@@ -12,7 +12,7 @@ const Library = () => {
     <DefaultBanner>
       <h1>Documents Library</h1>
       <p>
-      Documents and Media Assets
+      Repository of documents, media and other assets relevant to Digital Earth Pacific.
       </p>
     </DefaultBanner>
   );
