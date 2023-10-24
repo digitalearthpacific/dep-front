@@ -89,7 +89,7 @@ export const HeaderBar: React.FC = () => {
 
       <div className={rightAligned}>
         <Stack horizontal verticalAlign="center">
-          Pacific Community (SPC)
+          <img style={{height: "60px"}} src="https://gem.spc.int/sites/default/files/SPC-CPS-logo_27_stars-01.jpg"/>
         </Stack>
       </div>
 
