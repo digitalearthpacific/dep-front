@@ -14,7 +14,7 @@ const { center, zoom } = getCenterAndZoomQueryString();
 export interface MapState {
   center: [number, number];
   zoom: number;
-  bounds: atlas.data.BoundingBox | null;
+  bounds: atlas.data.BoundingBox | null;  
   boundaryShape: GeoJsonObject | null;
   showCollectionOutline: boolean;
   showSidebar: boolean;
@@ -27,8 +27,10 @@ export interface MapState {
 }
 
 const initialState: MapState = {
-  center: center || [30, 30],
-  zoom: zoom || 2,
+  //center: center || [30, 30],
+  //zoom: zoom || 2,
+  center: center || [177.221875, -8.713371],
+  zoom: zoom || 4,
   bounds: null,
   boundaryShape: null,
   showCollectionOutline: true,
