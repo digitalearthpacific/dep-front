@@ -52,7 +52,7 @@ const Applications = () => {
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-9h1J69Av7RHDud2T0Ung'><img src='./images/flags/FSM.jpg' /><br />Federated States<br />of Micronesia</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-y1kZ4GT2VLWMtZ2VsGtM'><img src='./images/flags/FIJI_ISLANDS.jpg' /><br />Fiji Islands</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-ks7pkLMrp3DmU8wcFEmo'><img src='./images/flags/FRENCH_POLYNESIA.jpg' /><br />French Polynesia</a></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-Af75EF6wrFS5PAAUAXXb'><img src='./images/flags/GUAM.jpg' /><br />Guam</a></td>
+            <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-geeAuVJqyf9bTklooqYQ'><img src='./images/flags/GUAM.jpg' /><br />Guam</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-u4wt6I10vQqJnKOYZmB6'><img src='./images/flags/KIRIBATI.jpg' /><br />Kiribati</a></td>
             <td style={{ padding: '20px' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-uPSjXMSrQnv6mHgHa0Z3'><img src='./images/flags/MARSHALL_ISLANDS.jpg' /><br />Marshall Islands</a></td>
 
