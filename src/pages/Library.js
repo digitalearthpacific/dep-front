@@ -29,7 +29,7 @@ const Library = () => {
         <br />
         {/* <iframe width="700" height="394" src="https://www.youtube.com/embed/jCWyfXRIFe0" title="Digital Earth Pacific" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
-        <iframe src="https://spccloud.sharepoint.com/sites/commsteam/_layouts/15/embed.aspx?UniqueId=f91734ab-ff55-45bf-a755-c33c6ecf7c1d&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="740" height="460" frameborder="0" scrolling="no" allowfullscreen title="DEP_Final (25.10) FLINCH.mov"></iframe>
+        <iframe width="700" height="445" src="https://www.youtube.com/embed/S7TxnzEH-vM?si=7y-bi7zci-TT5GAV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <br />
       </div>
