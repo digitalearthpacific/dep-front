@@ -76,7 +76,7 @@ const Community = () => {
 
         <hr />
 
-        <i>Credit: Pacific Community (SPC) Coporate Communications Division and ESRI Global Community Engagement Team</i>
+        <i>Credit: Pacific Community (SPC) Coporate Communications Division and ESRI ArcGIS Living Atlas of the World Team</i>
 
       </div>
 

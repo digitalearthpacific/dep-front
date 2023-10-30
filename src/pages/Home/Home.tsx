@@ -65,7 +65,7 @@ export const Home = () => {
           style={{ textAlign: "center" }}>
 
             <br/> 
-          Digital Earth Pacific provides decision-makers with the information needed to make sound decisions addressing the Pacific's challenges,<br/>most notably climate change, food security and disaster. 
+          Digital Earth Pacific provides decision-makers with the information needed to make sound decisions addressing the Pacific's challenges,<br/>1most notably climate change, food security and disaster. 
 
         </Text>
         <Text

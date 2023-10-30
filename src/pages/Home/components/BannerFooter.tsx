@@ -31,7 +31,9 @@ const BannerFooter = () => {
                 textAlign: "justify",
               }}
             >
-             Digital Earth Pacific helps assure a safe and prosperous future for Pacific peoples. 
+             Digital Earth Pacific helps assure a safe and prosperous future for Pacific peoples.
+             <br/><br/>
+             dep@spc.nt
             </Text>
            
           </div>

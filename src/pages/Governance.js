@@ -143,7 +143,7 @@ const Governance = () => {
             <td style={{ padding: '10px' }}>Tuvalu</td>
           </tr>
           <tr>
-            <td style={{ padding: '10px' }}>Dr Isoa Korovulavula</td>
+            <td style={{ padding: '10px' }}>Isoa Korovulavula</td>
             <td style={{ padding: '10px' }}>Director of the Institute of Applied Sciences University of South Pacific</td>
             <td style={{ padding: '10px' }}>University of the South Pacific (USP)</td>
           </tr>
