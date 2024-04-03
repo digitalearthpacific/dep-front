@@ -10,6 +10,7 @@ import Applications from "pages/Applications";
 import News from "pages/News";
 import Library from "pages/Library";
 import Governance from "pages/Governance";
+import UNSIDS from "pages/UNSIDS";
 import Collection from "pages/Collection";
 import Catalog from "./pages/Catalog2";
 import CatalogGroup from "pages/CatalogGroup";
@@ -53,6 +54,7 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/governance" element={<Governance />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/unsids2024" element={<UNSIDS />} />
           <Route path="/dataset/group/:groupId" element={<CatalogGroup />} />
           <Route path="/dataset/storage/:id" element={<StorageCollectionDetail />} />
           <Route path="/dataset/:id" element={<Collection />} />

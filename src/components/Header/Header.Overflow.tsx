@@ -65,9 +65,11 @@ export const HeaderOverflow: React.FC = () => {
             <HeaderLink align="start" isNav to="/applications">
               Regional Products
             </HeaderLink>
+            {/*            
             <HeaderLink align="start" isNav to="/explore">
               Global Data Explorer
             </HeaderLink>
+            */}
             <HeaderLink align="start" isNav to="/library">
               Library
             </HeaderLink>
@@ -82,6 +84,9 @@ export const HeaderOverflow: React.FC = () => {
             </HeaderLink>
             <HeaderLink align="start" isNav to="/governance">
               Governance
+            </HeaderLink>
+            <HeaderLink isNav to="/unsids2024">
+              UN SIDS 2024
             </HeaderLink>
           </Stack>
         </Panel>

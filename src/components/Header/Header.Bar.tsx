@@ -48,9 +48,11 @@ export const HeaderBar: React.FC = () => {
         Regional Products
       </HeaderLink>
 
+      {/* 
       <HeaderLink isNav to="/explore">
         Global Data Explorer
-      </HeaderLink>
+      </HeaderLink> 
+      */}
 
        
       <HeaderLink isNav to="/library">
@@ -86,6 +88,9 @@ export const HeaderBar: React.FC = () => {
         Governance
       </HeaderLink>
       
+      <HeaderLink isNav to="/unsids2024">
+        UN SIDS 2024
+      </HeaderLink>
 
       <div className={rightAligned}>
         <Stack horizontal verticalAlign="center">
