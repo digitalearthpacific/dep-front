@@ -1,0 +1,2 @@
+(self.webpackChunkpc_datacatalog=self.webpackChunkpc_datacatalog||[]).push([[969],{21060:(e,a,t)=>{"use strict";t.r(a),t.d(a,{default:()=>s});t(76998);var c=t(45933),l=(t(71235),t(23446));const s=e=>{let{specUrl:a}=e;return(0,l.jsx)(l.Fragment,{children:(0,l.jsx)(c.A,{url:a,docExpansion:"list",onComplete:()=>{const e=document.getElementsByTagName("select")[0];e&&(e.ariaLabel="Select a server")}})})}},42634:()=>{}}]);
+//# sourceMappingURL=969.1a734e64.chunk.js.map
