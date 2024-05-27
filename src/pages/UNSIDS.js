@@ -17,7 +17,7 @@ const UNSIDS = () => {
       </p>
       <br />
       <p>
-        <b>Date and Venue:</b><br />Thursday, 30 May 2024, Room 5
+        <b>Date and Venue:</b><br />Thursday, 30 May 2024, Room 5, 08:00 - 09:30
       </p>
       <br />
       <p>
