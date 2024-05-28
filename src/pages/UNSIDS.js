@@ -80,7 +80,7 @@ const UNSIDS = () => {
         <td>Country Innovations:  PLACE Data and Application in Tuvalu, Director Malolgo Faatasi, Government of Tuvalu</td>
     </tr>
     <tr>
-        <td>9:00--9:30 AM</td>
+        <td>9:00-9:30 AM</td>
         <td><u>Panel Discussion</u></td>
     </tr>
     <tr>
@@ -96,9 +96,10 @@ Sachindra Singh, Pacific Community<br/>
     </tr>
 </table>
 
-
-        <br /><br />
-        <b>Contacts:</b> Sachindra Singh | <a href="#">sachindras@spc.int</a> 
+            <br/>
+<hr/>
+    
+        <b>Contact:</b> Sachindra Singh | <a href="#">sachindras@spc.int</a> 
         <br/><br/>
         <b>Website:</b> <a href="https://sdgs.un.org/conferences/sids2024">https://sdgs.un.org/conferences/sids2024</a>
 
