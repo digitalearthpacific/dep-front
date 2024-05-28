@@ -43,11 +43,62 @@ const UNSIDS = () => {
         </p>
         <b>Format:</b>  This will be an in-person side event.  Panel discussion with 4-5 speakers and a moderator.
         <br /><br />
-        <b>Speakers:</b> TBC
+        <b>Speakers:</b> Director-General Nawadra (SPREP),  Permanent-Secretary Michael Sivendra (Government of Fiji),  Director Malologa Faatasi (Government of Tuvalu),  Deputy HoD George Carter, Australian National University (ANU) (Samoa), Aditya Agrawal (D4DInsights), Sachindra Singh (SPC)
         <br /><br />
         <b>Co-Organizers:</b> Pacific Community (SPC) and Group on Earth Observations (GEO)
+        <br/><br/>
+
+<hr/>
+<h3>Programme</h3>
+<table>
+    <tr>
+        <td>8:00-8:05 AM</td>
+        <td>Welcome, Anne-Claire Goarant, Pacific Community</td>
+    </tr>
+    <tr>
+        <td>8:05-8:10 AM</td>
+        <td>DEP Introduction Video</td>
+    </tr>
+    <tr>
+        <td>8:10-8:20 AM</td>
+        <td>Keynote Address from Government of Tuvalu (tbc)</td>
+    </tr>
+    <tr>
+        <td>8:10-8:20 AM</td>
+        <td>Keynote from Director General Nawadra, SPREP</td>
+    </tr>
+    <tr>
+        <td>8:30-8:40 AM</td>
+        <td>Presentation: Introduction to Digital Earth Pacific, Aditya Agrawal, D4DInsights</td>
+    </tr>
+    <tr>
+        <td>8:40-8:50 AM</td>
+        <td>Presentation: DEP Products at Scale for Climate Resilience, Sachindra Singh, Pacific Community</td>
+    </tr>
+    <tr>
+        <td>8:50-9:00 AM</td>
+        <td>Country Innovations:  PLACE Data and Application in Tuvalu, Director Malolgo Faatasi, Government of Tuvalu</td>
+    </tr>
+    <tr>
+        <td>9:00--9:30 AM</td>
+        <td><u>Panel Discussion</u></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+Moderated by Anne-Claire Goarant, Pacific Community<br/>
+Permanent Secretary Michael Sivendra, Government of Fiji<br/>
+Permanent Secretary Isabella Silk, Marshall Islands (tbc)<br/>
+Director Malologa Faatasi, Government of Tuvalu<br/>
+Deputy HoD George Carter, Australian National University (ANU) (Samoa)<br/>
+Sachindra Singh, Pacific Community<br/>
+        </td>
+    </tr>
+</table>
+
+
         <br /><br />
-        <b>Contacts:</b> Andiswa Mlisa | <a href="#">andiswam@spc.int</a> Sara Venturini | <a href="#">sventurini@geosec.org</a>
+        <b>Contacts:</b> Sachindra Singh | <a href="#">sachindras@spc.int</a> 
         <br/><br/>
         <b>Website:</b> <a href="https://sdgs.un.org/conferences/sids2024">https://sdgs.un.org/conferences/sids2024</a>
 
