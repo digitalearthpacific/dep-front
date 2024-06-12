@@ -60,7 +60,7 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink>
       
 
-      <HeaderLink external to="https://dep-staging.westeurope.cloudapp.azure.com/">
+      <HeaderLink external to="https://hub.staging.digitalearthpacific.org/">
         Analytical Hub
       </HeaderLink>
 
