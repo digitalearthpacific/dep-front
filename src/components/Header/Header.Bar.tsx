@@ -54,13 +54,13 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink> 
       */}
 
-       
+
       <HeaderLink isNav to="/library">
         Library
       </HeaderLink>
-      
 
-      <HeaderLink external to="https://hub.staging.digitalearthpacific.org/">
+
+      <HeaderLink external to="https://hub.digitalearthpacific.org/">
         Analytical Hub
       </HeaderLink>
 
@@ -70,7 +70,7 @@ export const HeaderBar: React.FC = () => {
       </HeaderLink>
       */}
 
-       {/*
+      {/*
       <HeaderLink external to="https://github.com/digitalearthpacific/depal">
         Trainings & Workshop
       </HeaderLink>
@@ -87,14 +87,14 @@ export const HeaderBar: React.FC = () => {
       <HeaderLink isNav to="/governance">
         Governance
       </HeaderLink>
-      
+
       <HeaderLink isNav to="/unsids2024">
         UN SIDS 2024
       </HeaderLink>
 
       <div className={rightAligned}>
         <Stack horizontal verticalAlign="center">
-          <img style={{height: "60px"}} src="https://gem.spc.int/sites/default/files/SPC-CPS-logo_27_stars-01.jpg"/>
+          <img style={{ height: "60px" }} src="https://gem.spc.int/sites/default/files/SPC-CPS-logo_27_stars-01.jpg" />
         </Stack>
       </div>
 
