@@ -73,7 +73,7 @@ export const HeaderOverflow: React.FC = () => {
             <HeaderLink align="start" isNav to="/library">
               Library
             </HeaderLink>
-            <HeaderLink align="start" isNav external to="https://dep-staging.westeurope.cloudapp.azure.com/">
+            <HeaderLink align="start" isNav external to="https://hub.digitalearthpacific.org/">
               Analytical Hub
             </HeaderLink>
             <HeaderLink align="start" isNav to="/community">
