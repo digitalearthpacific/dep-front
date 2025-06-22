@@ -24,7 +24,7 @@ const Applications = () => {
       <br />
       {/* <b><a target="_blank" href="">Products Story Maps</a></b> */}
 
-      <b><a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-3ibE0nSIbPlg6O1IWqWq">Products Story Maps</a></b>
+      <b><a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-AuNZvkBIk2MsFjT2XV81">Products Story Maps</a></b>
 
     </DefaultBanner>
   );
