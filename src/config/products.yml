@@ -8,6 +8,7 @@
     - title: Explore Coastlines Change
       url: https://maps.digitalearthpacific.org/#share=s-gdqSovh6xdqQB9gUeSe8
 
+
 - title: Water Observations from Space (WOfS)
   description:  Water Observations from Space (WOfS) beta version product for Water Observations from Space (WOfS) is an annual summary of the temporal and spatial extent of surface water over landscapes. In essence, this highlights where water is usually or where it is rarely. The results are visualised to compare points in time spanning over a year, a season or multiple years. The dataset extends back historically to 2013.
   methodology: For each year, all available Landsat data was collected, then filtered to remove clouds. A complex decision tree algorithm was applied, producing a water mask for each date. Annual mosaics were created by calculating the percentage of dates within each year when a particular location contained water. 
@@ -29,3 +30,34 @@
     - title: Explore Mangroves Change
       url: https://maps.digitalearthpacific.org/#share=s-4VWryod6feOVt2w93RHj
 
+
+- title: Geometric Median and Median Absolute Deviations (GeoMAD) (alpha)
+  description: The GeoMAD Sentinel-2 product is a cloud-free composite of satellite data that consolidates multi-temporal imagery into an annual, representative dataset. By integrating geomedian statistics with higher-order measures of variation (MADs), the product enables reliable, consistent monitoring of land and marine environments across the Pacific region, even in regions frequently obscured by clouds. GeoMAD also enables “on-th-fly” visualisation of critical indices around vegetation, water and moisture monitoring, which enables decision making around agriculture, vegetation and climate domain areas.
+  methodology: For this product satellite input data is filtered using the Scene Classification Layer (SCL) metadata which removes invalid pixels to improve data quality, specifically excluding pixels identified as saturated or defective (SCL=1), cloud shadows (SCL=3), medium probability clouds (SCL=8), high probability clouds (SCL=9), and thin cirrus clouds (SCL=10). A multi-spectral geomedian is then calculated for each pixel, representing the central value of valid observations collected over the course of a year. In addition, Median Absolute Deviations (MADs) are computed to quantify variation in the data relative to the geomedian, allowing for higher-order statistical analysis. The cleaned and processed imagery is then aggregated using the GeoMAD algorithm, producing an annual cloud-free surface-reflection composite dataset. 
+  uses: This product can be used for a wide range of practical applications. In disaster response and recovery, it provides a reliable cloud-free baseline for assessing damage and guiding recovery after events such as cyclones and floods. For land cover and vegetation monitoring, the product supports tracking changes in land use, forest cover, and agricultural patterns. In the context of climate resilience, GeoMAD helps monitor long-term environmental shifts, offering critical insights for climate adaptation and mitigation strategies. 
+  citation: Leith, A. (2024). Geometric Median and Median Absolute Deviations (GeoMAD) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/geomad.png
+  links:
+    - title: Explore GeoMAD
+      url: https://maps.digitalearthpacific.org/#share=s-7aI1nH2b0d2QnIO3s7om
+
+
+- title: Satellite Derived Bathymetry (SDB) (alpha)
+  description: The optical Satellite Derived Bathymetry (SDB) product provides critical depth data for shallow marine environments, reaching depths of up to 30 meters. This dataset supports a range of ocean and coastal management applications by delivering high-resolution bathymetric information in regions that are often difficult or expensive to survey using traditional methods.
+  methodology: The SDB product utilises multispectral imagery from the Sentinel-2 satellite, and masks both land and deep water. A machine learning model is then trained on decades of legacy multibeam data collected by SPC, and used to predict depth. Predictions are done on scene-based observations, and the mean of all predictions over a year is used as a final result. Depth estimations are validated using in situ measurements, where available, to ensure accuracy and reliability.
+  uses: This product can be used for navigation, marine spatial planning, oceanographic studies and environmental monitoring. Specifically, for mapping fishing grounds, monitoring coastal erosion, modelling coastal inundation and sea level rise, mapping and monitoring benthic habitats to identify and protect sensitive marine habitats and studying ocean currents, tsunamis, and other marine processes.
+  citation: Singh. S., Leith, A. (2025). Satellite Derived Bathymetry (SDB) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/sdb.png
+  links:
+    - title: Explore SDB
+      url: https://maps.digitalearthpacific.org/#share=s-qbLla3VYWC9LfnMEXuMd
+
+- title: Pacific Intertidal Model (alpha)
+  description: The Intertidal Product maps the dynamic elevation, exposure, and tidal characteristics of the intertidal zone; the transitional area between the highest high tide and the lowest low tide. This zone encompasses sandy beaches, tidal flats, rocky shores, and reef systems. The product provides a consistent, regional scale understanding of how these environments are exposed and submerged over time, offering crucial insights into coastal morphology and hydrodynamic processes.
+  methodology: Combined satellite imagery from Sentinel-2 and Landsat 8 for the year 2024 is analysed to identify the exposed intertidal zones, which is the area where coastal water is present or absent across tidal cycles. Using statistical and remote sensing analysis, pixels are classified based on frequency of exposure, which is then correlated with tidal models. The result is a high-resolution (30 m/px) representation of the intertidal topography and exposure.
+  uses: This product can support a range of scientific, environmental, and planning efforts, including but not limited to, coastal erosion monitoring, land reclamation assessments, sea-level rise impact studies, biodiversity conservation and benthic habitat mapping.
+  citation: Singh. S. (2025). Pacific Intertidal Model - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/intertidal.png
+  links:
+    - title: Explore Pacific Intertidal Model
+      url: https://maps.digitalearthpacific.org/#share=s-1V4PrQjTLk5z0EgaK1ai
