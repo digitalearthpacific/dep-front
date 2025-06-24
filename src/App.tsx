@@ -53,7 +53,6 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/governance" element={<Governance />} />
           <Route path="/community" element={<Community />} />
-          <Route path="/unsids2024" element={<UNSIDS />} />
           <Route path="/dataset/group/:groupId" element={<CatalogGroup />} />
           <Route path="/dataset/storage/:id" element={<StorageCollectionDetail />} />
           <Route path="/dataset/:id" element={<Collection />} />
