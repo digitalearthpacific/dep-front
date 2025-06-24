@@ -85,9 +85,6 @@ export const HeaderOverflow: React.FC = () => {
             <HeaderLink align="start" isNav to="/governance">
               Governance
             </HeaderLink>
-            <HeaderLink isNav to="/unsids2024">
-              UN SIDS 2024
-            </HeaderLink>
           </Stack>
         </Panel>
       </StackItem>
