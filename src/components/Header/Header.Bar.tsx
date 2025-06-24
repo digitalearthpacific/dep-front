@@ -88,10 +88,6 @@ export const HeaderBar: React.FC = () => {
         Governance
       </HeaderLink>
 
-      <HeaderLink isNav to="/unsids2024">
-        UN SIDS 2024
-      </HeaderLink>
-
       <div className={rightAligned}>
         <Stack horizontal verticalAlign="center">
           <img style={{ height: "60px" }} src="https://gem.spc.int/sites/default/files/SPC-CPS-logo_27_stars-01.jpg" />

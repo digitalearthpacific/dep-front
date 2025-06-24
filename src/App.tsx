@@ -10,7 +10,6 @@ import Applications from "pages/Applications";
 import News from "pages/News";
 import Library from "pages/Library";
 import Governance from "pages/Governance";
-import UNSIDS from "pages/UNSIDS";
 import Collection from "pages/Collection";
 import Catalog from "./pages/Catalog2";
 import CatalogGroup from "pages/CatalogGroup";
