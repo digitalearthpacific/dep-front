@@ -33,7 +33,7 @@ const Governance = () => {
         
 
         <br /><br />
-        <img style={{ width: '60%' }} src="./images/steering.png" />
+        <img style={{ width: '60%' }} src="./images/dep_scm_2025.jpg" />
 
         <h2>Membership</h2>
 
