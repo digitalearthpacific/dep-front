@@ -16,10 +16,7 @@ const Applications = () => {
       </p>
       <br />
       <p style={{ textAlign: "justify" }}>
-        Digital Earth Paciﬁc is in its early stages. All products currently made available are considered beta products. They
-        have not gone through any extensive data validation process, and therefore, should be used for demonstration
-        purposes to understand the potential and capabilities of this system. Further work with member countries will inform
-        the co-design and validation process to bring these data products to an operational level.
+        Digital Earth Paciﬁc is in its early stages though several “alpha” and “beta” products have been released. Many of these products have not gone through an extensive data validation process, so they should only be used for demonstration purposes to understand their potential and capabilities. Ongoing work with member countries will inform the co-design and validation process to bring these data products to an operational level.
       </p>
       <br />
       {/* <b><a target="_blank" href="">Products Story Maps</a></b> */}
@@ -39,6 +36,130 @@ const Applications = () => {
       <div className="layout-container">
         <div className="layout-row grid-content">{appsList}</div>
       </div>
+
+      {/* Product Development Summary Table */}
+        <div style={{ padding: "20px" }}>
+          <h2>Digital Earth Pacific - Product Development Summary</h2>
+          <table style={{ width: "100%", borderCollapse: "collapse" }}>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Status</th>
+                {/* <th>Concept Note</th>
+                <th>Validation Plan</th> */}
+                <th>Core Parameters</th>
+                <th>Data Source (resolution)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pacific Coastlines</td>
+                <td>Beta Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Annual Locations, Rates of Change</td>
+                <td>Landsat (30m)</td>
+              </tr>
+              <tr>
+                <td>Pacific Mangroves</td>
+                <td>Beta Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Extent, Density, Change</td>
+                <td>Sentinel-2 GEOMAD (10m)</td>
+              </tr>
+              <tr>
+                <td>Water Observations from Space (WOFS)</td>
+                <td>Beta Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Daily Extent, Annual Frequency, All Frequency</td>
+                <td>Landsat (30m)</td>
+              </tr>
+              <tr>
+                <td>Sentinel-2 GeoMAD</td>
+                <td>Alpha Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Annual Median (12-bands), Deviations</td>
+                <td>Sentinel-2 (10m)</td>
+              </tr>
+              <tr>
+                <td>Pacific Intertidal Zones</td>
+                <td>Alpha Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Elevation (m), Exposure (%)</td>
+                <td>Landsat (30m)</td>
+              </tr>
+              <tr>
+                <td>Pacific Optical Satellite Derived Bathymetry (SDB)</td>
+                <td>Alpha Release</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Depth (&lt;30m)</td>
+                <td>Landsat (30m)</td>
+              </tr>
+              <tr>
+                <td>Pacific Coastal Habitat Mapping</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Seagrass, Coral Reefs</td>
+                <td>Sentinel-2 GEOMAD (10m)</td>
+              </tr>
+              <tr>
+                <td>Sentinel-1 GeoMAD</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Annual Median + Annual Mean (VV, VH), Deviations</td>
+                <td>Sentinel-1 (10m)</td>
+              </tr>
+              <tr>
+                <td>Pacific Vegetation and Deforestation Mapping</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Vegetation Height, Canopy Cover, Change</td>
+                <td>Sentinel-2 (10m)</td>
+              </tr>
+              <tr>
+                <td>Fractional Cover</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>PV, NPV, BS, Unmixing (Scene, Annual)</td>
+                <td>Landsat (30m)</td>
+              </tr>
+              <tr>
+                <td>Land Cover</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>IPCC 6-class</td>
+                <td>Sentinel-2 GEOMAD (10m)</td>
+              </tr>
+              <tr>
+                <td>Water Quality</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>Suspended Matter, Chlorophyll-A</td>
+                <td>Sentinel-2 (10m)</td>
+              </tr>
+              <tr>
+                <td>Invasive Species Mapping</td>
+                <td>In Development</td>
+                {/* <td>DOCUMENT</td>
+                <td>DOCUMENT</td> */}
+                <td>African Tulip, Salmwood</td>
+                <td>Sentinel-2 (10m)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
 
 
 
