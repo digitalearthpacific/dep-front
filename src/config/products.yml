@@ -5,8 +5,8 @@
   citation: Anderson, J. Singh. S. (2023). Coastline change detection - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/coastlines.png
   links:
-    - title: Explore Coastlines Change
-      url: https://maps.digitalearthpacific.org/#share=s-gdqSovh6xdqQB9gUeSe8
+    - title: Explore a Coastlines Change Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-wBita83VzMJyQ1kPi1nn
 
 
 - title: Water Observations from Space (WOfS)
@@ -16,8 +16,8 @@
   citation: Anderson, J. (2023). Water Observations from Space (WOfS) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/wofs.png
   links:
-    - title: Explore WOfS
-      url: https://maps.digitalearthpacific.org/#share=s-a4wwNul0S1MQckdKzLcR
+    - title: Explore a WOfS Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-qbxz0ZXv7J3HyfOrRN2V
 
 
 - title: Pacific Mangroves Change Detection
@@ -27,8 +27,8 @@
   citation: Singh. S., Anderson, J. (2023). Mangrove extent - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/mangroves.png
   links:
-    - title: Explore Mangroves Change
-      url: https://maps.digitalearthpacific.org/#share=s-4VWryod6feOVt2w93RHj
+    - title: Explore a Mangroves Change Detection Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-grUlXHhdNquRZHnKpg9C
 
 
 - title: Geometric Median and Median Absolute Deviations (GeoMAD) (alpha)
@@ -38,8 +38,8 @@
   citation: Leith, A. (2024). Geometric Median and Median Absolute Deviations (GeoMAD) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/geomad.png
   links:
-    - title: Explore GeoMAD
-      url: https://maps.digitalearthpacific.org/#share=s-7aI1nH2b0d2QnIO3s7om
+    - title: Explore a GeoMAD Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-wZ7yabgMSaeNqFWNRulH
 
 
 - title: Satellite Derived Bathymetry (SDB) (alpha)
@@ -49,8 +49,8 @@
   citation: Singh. S., Leith, A. (2025). Satellite Derived Bathymetry (SDB) - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/sdb.png
   links:
-    - title: Explore SDB
-      url: https://maps.digitalearthpacific.org/#share=s-qbLla3VYWC9LfnMEXuMd
+    - title: Explore a SDB Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-6QZXXBbO2tYhhRYNmoxK
 
 - title: Pacific Intertidal Model (alpha)
   description: The Intertidal Product maps the dynamic elevation, exposure, and tidal characteristics of the intertidal zone; the transitional area between the highest high tide and the lowest low tide. This zone encompasses sandy beaches, tidal flats, rocky shores, and reef systems. The product provides a consistent, regional scale understanding of how these environments are exposed and submerged over time, offering crucial insights into coastal morphology and hydrodynamic processes.
@@ -59,5 +59,5 @@
   citation: Singh. S. (2025). Pacific Intertidal Model - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
   thumbnailUrl: ./images/apps/intertidal.png
   links:
-    - title: Explore Pacific Intertidal Model
-      url: https://maps.digitalearthpacific.org/#share=s-1V4PrQjTLk5z0EgaK1ai
+    - title: Explore a Pacific Intertidal Model Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-ledJcDVFLf75QI4P5eWe 
