@@ -40,122 +40,102 @@ const Applications = () => {
       {/* Product Development Summary Table */}
         <div style={{ padding: "20px" }}>
           <h2>Digital Earth Pacific - Product Development Summary</h2>
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left" }}>
             <thead>
-              <tr>
-                <th>Product Name</th>
-                <th>Product Status</th>
-                {/* <th>Concept Note</th>
-                <th>Validation Plan</th> */}
-                <th>Core Parameters</th>
-                <th>Data Source (resolution)</th>
-              </tr>
+              <tr style={{ backgroundColor: "#f2f2f2" }}></tr>
+              <th style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px", backgroundColor: "#c0f4ff" }}>Product Name</th>
+              <th style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px", backgroundColor: "#c0ffcb" }}>Product Status</th>
+              <th style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px", backgroundColor: "#cbc0ff" }}>Core Parameters</th>
+              <th style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px", backgroundColor: "#ffc0d5" }}>Data Source (resolution)</th>
             </thead>
             <tbody>
-              <tr>
-                <td>Pacific Coastlines</td>
-                <td>Beta Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Annual Locations, Rates of Change</td>
-                <td>Landsat (30m)</td>
-              </tr>
-              <tr>
-                <td>Pacific Mangroves</td>
-                <td>Beta Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Extent, Density, Change</td>
-                <td>Sentinel-2 GEOMAD (10m)</td>
-              </tr>
-              <tr>
-                <td>Water Observations from Space (WOFS)</td>
-                <td>Beta Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Daily Extent, Annual Frequency, All Frequency</td>
-                <td>Landsat (30m)</td>
-              </tr>
-              <tr>
-                <td>Sentinel-2 GeoMAD</td>
-                <td>Alpha Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Annual Median (12-bands), Deviations</td>
-                <td>Sentinel-2 (10m)</td>
-              </tr>
-              <tr>
-                <td>Pacific Intertidal Zones</td>
-                <td>Alpha Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Elevation (m), Exposure (%)</td>
-                <td>Landsat (30m)</td>
-              </tr>
-              <tr>
-                <td>Pacific Optical Satellite Derived Bathymetry (SDB)</td>
-                <td>Alpha Release</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Depth (&lt;30m)</td>
-                <td>Landsat (30m)</td>
-              </tr>
-              <tr>
-                <td>Pacific Coastal Habitat Mapping</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Seagrass, Coral Reefs</td>
-                <td>Sentinel-2 GEOMAD (10m)</td>
-              </tr>
-              <tr>
-                <td>Sentinel-1 GeoMAD</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Annual Median + Annual Mean (VV, VH), Deviations</td>
-                <td>Sentinel-1 (10m)</td>
-              </tr>
-              <tr>
-                <td>Pacific Vegetation and Deforestation Mapping</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Vegetation Height, Canopy Cover, Change</td>
-                <td>Sentinel-2 (10m)</td>
-              </tr>
-              <tr>
-                <td>Fractional Cover</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>PV, NPV, BS, Unmixing (Scene, Annual)</td>
-                <td>Landsat (30m)</td>
-              </tr>
-              <tr>
-                <td>Land Cover</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>IPCC 6-class</td>
-                <td>Sentinel-2 GEOMAD (10m)</td>
-              </tr>
-              <tr>
-                <td>Water Quality</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>Suspended Matter, Chlorophyll-A</td>
-                <td>Sentinel-2 (10m)</td>
-              </tr>
-              <tr>
-                <td>Invasive Species Mapping</td>
-                <td>In Development</td>
-                {/* <td>DOCUMENT</td>
-                <td>DOCUMENT</td> */}
-                <td>African Tulip, Salmwood</td>
-                <td>Sentinel-2 (10m)</td>
-              </tr>
+              {[
+                {
+                  name: "Pacific Coastlines",
+                  status: "Beta Release",
+                  parameters: "Annual Locations, Rates of Change",
+                  source: "Landsat (30m)",
+                },
+                {
+                  name: "Pacific Mangroves",
+                  status: "Beta Release",
+                  parameters: "Extent, Density, Change",
+                  source: "Sentinel-2 GEOMAD (10m)",
+                },
+                {
+                  name: "Water Observations from Space (WOFS)",
+                  status: "Beta Release",
+                  parameters: "Daily Extent, Annual Frequency, All Frequency",
+                  source: "Landsat (30m)",
+                },
+                {
+                  name: "Sentinel-2 GeoMAD",
+                  status: "Alpha Release",
+                  parameters: "Annual Median (12-bands), Deviations",
+                  source: "Sentinel-2 (10m)",
+                },
+                {
+                  name: "Pacific Intertidal Zones",
+                  status: "Alpha Release",
+                  parameters: "Elevation (m), Exposure (%)",
+                  source: "Landsat (30m)",
+                },
+                {
+                  name: "Pacific Optical Satellite Derived Bathymetry (SDB)",
+                  status: "Alpha Release",
+                  parameters: "Depth (<30m)",
+                  source: "Landsat (30m)",
+                },
+                {
+                  name: "Pacific Coastal Habitat Mapping",
+                  status: "In Development",
+                  parameters: "Seagrass, Coral Reefs",
+                  source: "Sentinel-2 GEOMAD (10m)",
+                },
+                {
+                  name: "Sentinel-1 GeoMAD",
+                  status: "In Development",
+                  parameters: "Annual Median + Annual Mean (VV, VH), Deviations",
+                  source: "Sentinel-1 (10m)",
+                },
+                {
+                  name: "Pacific Vegetation and Deforestation Mapping",
+                  status: "In Development",
+                  parameters: "Vegetation Height, Canopy Cover, Change",
+                  source: "Sentinel-2 (10m)",
+                },
+                {
+                  name: "Fractional Cover",
+                  status: "In Development",
+                  parameters: "PV, NPV, BS, Unmixing (Scene, Annual)",
+                  source: "Landsat (30m)",
+                },
+                {
+                  name: "Land Cover",
+                  status: "In Development",
+                  parameters: "IPCC 6-class",
+                  source: "Sentinel-2 GEOMAD (10m)",
+                },
+                {
+                  name: "Water Quality",
+                  status: "In Development",
+                  parameters: "Suspended Matter, Chlorophyll-A",
+                  source: "Sentinel-2 (10m)",
+                },
+                {
+                  name: "Invasive Species Mapping",
+                  status: "In Development",
+                  parameters: "African Tulip, Salmwood",
+                  source: "Sentinel-2 (10m)",
+                },
+                ].map((product, index) => (
+                <tr key={index}>
+                  <td style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px" }}>{product.name}</td>
+                  <td style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px" }}>{product.status}</td>
+                  <td style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px" }}>{product.parameters}</td>
+                  <td style={{ border: "1px solid #ccc", textAlign: "left", padding: "8px" }}>{product.source}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
