@@ -84,7 +84,7 @@ const Applications = () => {
                   name: "Pacific Optical Satellite Derived Bathymetry (SDB)",
                   status: "Alpha Release",
                   parameters: "Depth (<30m)",
-                  source: "Landsat (30m)",
+                  source: "Sentinel-2 (10m)",
                 },
                 {
                   name: "Pacific Coastal Habitat Mapping",
@@ -144,7 +144,7 @@ const Applications = () => {
 
 
       <div style={{ marginLeft: "90px" }}>
-        <h1>DEP Products by Country</h1>
+        <h1>Digital Earth Pacific Products by Country</h1>
         <a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-se4QkfmUsarYesLIzoXr">Country Story Map</a>
 
         <table>
