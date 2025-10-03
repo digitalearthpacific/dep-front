@@ -74,11 +74,9 @@ export const Home = () => {
           style={{ margin: "1.0rem 0", textAlign: "justify", maxWidth: "815px" }}
         >
           <br></br>
-          The Digital Earth Pacific (DEP) is an operational earth observation system that uses decades of satellite data to show how local environments are changing over time. This includes changes to landcover and land use to better target humanitarian assistance after disasters, mapping of changing coastlines caused by climate change or storm events, and understanding how mangrove growth has changed without having to map this manually .
+          The Digital Earth Pacific (DE Pacific) is an operational Earth observation system that utilises decades of satellite data to demonstrate how local environments are changing over time. This includes changes to landcover and land use to better target humanitarian assistance after disasters, mapping of changing coastlines caused by climate change or storm events, and understanding how mangrove growth has changed without the need for manual mapping.
           <br /><br />
-          DEP will allow Pacific Community (SPC) SPC member states to make more informed decisions based on timely information. 
- 
- It is a free and open digital public infrastructure helps the region understand the changes in our environment quickly and at a fraction of the cost of previous data systems, at scale. 
+          DE Pacific will allow the Pacific Community's (SPC) member states to make more informed decisions based on timely information. It is a free and open digital public infrastructure that helps enable the region to quickly understand the changes in our environment and at a fraction of the cost of previous data systems, at scale. 
  
           <br /><br />
           Digital Earth Pacific helps us achieve our 2050 Leaders vision for our Blue Pacific Continent and underpins the progress being made towards the Paris Agreement and our Sustainable Development Goals. 

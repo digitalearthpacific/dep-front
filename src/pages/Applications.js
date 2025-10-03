@@ -12,11 +12,11 @@ const Applications = () => {
     <DefaultBanner>
       <h1>Regional Products</h1>
       <p style={{ textAlign: "justify" }}>
-        The Digital Earth Pacific Programme will help assure a safe and prosperous future for Pacific Islands communities, and actively contribute to the regeneration and health of the region, and the planet.
+        The Digital Earth Pacific Programme will help assure a safe and prosperous future for Pacific Islands communities and actively contribute to the regeneration and health of the region and the planet.
       </p>
       <br />
       <p style={{ textAlign: "justify" }}>
-        Digital Earth Paciﬁc is in its early stages though several “alpha” and “beta” products have been released. Many of these products have not gone through an extensive data validation process, so they should only be used for demonstration purposes to understand their potential and capabilities. Ongoing work with member countries will inform the co-design and validation process to bring these data products to an operational level.
+        Digital Earth Paciﬁc is in its early stages though several “alpha” and “beta” products have been released. Many of these products have not gone through an extensive data validation process, so they should only be used for demonstration purposes to understand their potential and capabilities. Ongoing work with member countries will inform the co-design and validation processes to enable these data products to reach an operational level.
       </p>
       <br />
       {/* <b><a target="_blank" href="">Products Story Maps</a></b> */}
