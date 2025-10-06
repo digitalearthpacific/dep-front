@@ -75,6 +75,7 @@ export const HeaderOverflow: React.FC = () => {
             </HeaderLink>
             <HeaderLink align="start" isNav external to="https://hub.digitalearthpacific.org/">
               Analytical Hub
+            </HeaderLink>  
             <HeaderLink align="start" isNav external to="https://digitalearthpacific.org/">
               Data
             </HeaderLink>
