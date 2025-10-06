@@ -64,6 +64,10 @@ export const HeaderBar: React.FC = () => {
         Analytical Hub
       </HeaderLink>
 
+      <HeaderLink external to="https://data.digitalearthpacific.org/">
+        Data
+      </HeaderLink>
+
       {/* 
       <HeaderLink isNav to="/applications">
         Applications

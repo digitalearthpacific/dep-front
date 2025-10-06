@@ -38,40 +38,25 @@ const Community = () => {
 
 
           <tr>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/workshop.png" /></td>
+            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://media.shorthand.com/media/organisations/HFa7Q2FkTB/q1U5RueeYg/dsc_4218-2230x1487.webp?sh-expires-at=1759721377&sh-signature=b9d32e0c6980be172b6b9d8e8963d7fdff4dc16d426d8d072cf12d95e10bc1b0" /></td>
             <td style={{ padding: '20px' }}><a target="_blank" href="https://preview.shorthand.com/nd7hBYuUXHkfRiN7">Digital Earth Pacific partnering with governments for capacity development</a></td>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/tcwinston.jpg" /></td>
+            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://spc-cps.shorthandstories.com/dep-tc-winston/assets/Zfq04B6WXb/stock-photo-indigenous-fijian-girl-walking-on-flooded-land-in-fiji-on-feb-severe-tropical-cyclone-winston-561184597-1500x1002.jpg" /></td>
             <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-cyclone-winston">DEP monitoring mangroves damage and recovery following TC Winston, Viti Levu, Fiji</a></td>
           </tr>
 
           <tr>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/puddle-water-meadow.jpg" /></td>
+            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://spc-cps.shorthandstories.com/the-impact-of-digital-earth-pacific-fijis-illegal-gravel-extraction/assets/sqsFgbgSqP/microsoftteams-image-79-800x665.jpg" /></td>
             <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-fijis-illegal-gravel">DEP monitoring gravel extraction for economic development in Fiji</a></td>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/mangrove.jpg" /></td>
+            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/09/02124910/2-seagrass-and-manatees-768x512.jpg" /></td>
             <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/interactive-story/2023/10/the-impact-of-digital-earth-pacific-mangroves-and-seagrass">DEP in management and conservation of blue carbon ecosystems</a></td>
           </tr>
 
 
           <tr>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/ahi.jpg" /></td>
+            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://spc-cps.shorthandstories.com/dep-ahi-story/assets/DwcWxSfpky/dsc_4708-4096x2731.jpg" /></td>
             <td style={{ padding: '20px' }}><a target="_blank" href="https://www.spc.int/updates/blog/a-conversation-with/2023/10/the-impact-of-digital-earth-pacific-in-tonga-ahis-story">DEP Access to data and innovative tools, Ahi’s story in Tonga </a></td>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/esri1.png" /></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href="https://pacificcore.maps.arcgis.com/apps/instant/slider/index.html?appid=9e20956f766744aea5e9bf85abf5fde6">Digital Earth Pacific Mangrove Damage and Recovery Analysis</a></td>
           </tr>
 
-          <tr>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/esri2.png" /></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href="https://pacificcore.maps.arcgis.com/apps/instant/media/index.html?appid=65642511c0dd44fe82aa237f837627e0">Cyclone Winston Mangrove Damage - Landsat 8 Comparison</a></td>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/esri3.png" /></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href="https://pacificcore.maps.arcgis.com/apps/instant/media/index.html?appid=20f24a2c3fb04d95a4038bc9f4fb96da">Cyclone Winston Mangrove Damage - High Resolution Imagery Comparison</a></td>
-          </tr>
-
-          <tr>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/esri4.png" /></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href="https://storymaps.arcgis.com/stories/d23e91332aa8463390cf2f8600c51f22">Remote Sensing Shows the Impact of Drought in PNG</a></td>
-            <td style={{ padding: '10px' }}><img style={{ width: "200px", height: "130px" }} src="https://deppcpublicstorage.blob.core.windows.net/output/storymaps/esri5.png" /></td>
-            <td style={{ padding: '20px' }}><a target="_blank" href="https://storymaps.arcgis.com/stories/d2a9a0f7ad794ef9a2ddf2f508f70cdc">Destruction of Fiji Island Reef due to Coastal Development</a></td>
-          </tr>
         </table>
 
         <hr />

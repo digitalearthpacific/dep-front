@@ -145,8 +145,7 @@ const Applications = () => {
 
       <div style={{ marginLeft: "90px" }}>
         <h1>Digital Earth Pacific Products by Country</h1>
-        <a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-se4QkfmUsarYesLIzoXr">Country Story Map</a>
-
+        
         <table>
           <tr>
             <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eJ4gYi3HFWnQhq8iGwq6'><img src='./images/flags/AMERICAN_SAMOA.jpg' /><br />American Samoa</a></td>
