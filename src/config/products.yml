@@ -67,7 +67,7 @@
   methodology: The fractional cover algorithm works by partitioning each 30-m pixel into percentages of each of the three components using a linear spectral unmixing approach, which also estimates the prediction error. This algorithm is applied to each available landsat scene from 1984 onward across all Pacific Island Countries and Territories. Annual summaries are calculated by estimating the 10th, 50th, and 90th percentiles of each component at the pixel level across all landsat images for each year.
   uses: Fractional cover enables users to understand large-scale patterns and trends, informing evidence-based decision-making and policy on topics such as forest and agricultural monitoring, wind and water erosion risk, soil carbon dynamics, land surface process monitoring, land management practices, and other uses. The algorithm was developed by the Joint Remote Sensing Research Program, School of Geography, Planning and Environmental Management, University of Queensland, and has been previously applied in the Digital Earth Australia and Digital Earth Africa projects. For more information, see https://doi.org/10.3390/rs6097952.
   citation: Anderson, J. (2025). Fractional Cover - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
-  thumbnailUrl: ./images/apps/fractional_cover.png
+  thumbnailUrl: ./images/apps/factional_cover.png
   links:
     - title: Explore Fractional Cover
       url: https://maps.digitalearthpacific.org/#share=s-jremXd2LmmjUpIxlRh4F
