@@ -81,3 +81,13 @@
   links:
     - title: Explore a Seagrass Extents Use Case
       url: https://maps.digitalearthpacific.org/#share=s-eeRSfNmGP7pjkdSI6K95
+
+- title: Pacific Vegetation Height (alpha)
+  description: The Vegetation Height product provides an annual map of mean above-ground vegetation height (metres) at 10 m resolution across Pacific Island countries and territories. It captures structural height for a broad range of plant functional types, including herbaceous cover (grasses), low woody vegetation (shrubs), and arboreal canopies (forests), as well as crops, to support monitoring, planning, and climate applications. What “average height per pixel” means is that each 10 × 10 m pixel may contain a mix of ground, understory and canopy. The reported value is the expected mean height of all vegetative elements within that pixel, not the maximum canopy top height. Pixels with little will be near 0 m. No vegetation is shown as “no data”. 
+  methodology: A deep-learning model (encoder–decoder) is applied to Sentinel-2 GeoMAD annual composites to infer per-pixel vegetation height. The model was calibrated using airborne LiDAR in multiple regions and undergoes visual QA in the Pacific; formal Pacific validation is in progress as part of this alpha release. Outputs are provided in metres as GeoTIFF/COG. 
+  uses: The Vegetation Height layer primarily supports above-ground biomass and carbon screening, using structural height as an input to allometric models, and deforestation and degradation assessment when compared across years or combined with auxiliary layers. Beyond these core applications, the product underpins wildfire risk analysis and mitigation planning by highlighting areas of tall, contiguous fuels; informs ecosystem and habitat mapping, restoration prioritisation and nature-based solutions by revealing spatial patterns in vegetation structure; and aids climate adaptation and land-use planning by providing a consistent, regional baseline of canopy height for exposure analysis and monitoring.
+  citation: Bandini-Maeder, A., et al. (2025). Pacific Vegetation Height - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/veg_height.png
+  links:
+    - title: Explore a Pacific Vegetation Height Use Case
+      url: https://maps.digitalearthpacific.org/#share=s-s5cWdGe5z2efHZfGKrmU
