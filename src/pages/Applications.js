@@ -99,9 +99,9 @@ const Applications = () => {
                   source: "Sentinel-1 (10m)",
                 },
                 {
-                  name: "Pacific Vegetation and Deforestation Mapping",
-                  status: "In Development",
-                  parameters: "Vegetation Height, Canopy Cover, Change",
+                  name: "Pacific Vegetation Height",
+                  status: "Alpha Release",
+                  parameters: "Mean vegetation height (m)",
                   source: "Sentinel-2 (10m)",
                 },
                 {
