@@ -65,6 +65,9 @@ export const HeaderOverflow: React.FC = () => {
             <HeaderLink align="start" isNav to="/applications">
               Regional Products
             </HeaderLink>
+            <HeaderLink external to="https://dev--coastline-change-dashboard.netlify.app">
+              Dashboards
+            </HeaderLink>
             {/*            
             <HeaderLink align="start" isNav to="/explore">
               Global Data Explorer
