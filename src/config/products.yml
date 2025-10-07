@@ -21,14 +21,14 @@
 
 
 - title: Pacific Mangroves Change Detection
-  description: Pacific Mangroves beta version product is an extension of the Global Mangrove Watch (GMV v3, 2020). which shows the extent of mangrove ecosystems across Pacific Island Countries and Territories (PICTs). The changes in mangrove extent were further classified into three categories of closed (high-density), open (lower density) and non-mangrove. This was used as the baseline training layer where mangrove categories between 2016 and 2022 were analysed. 
-  methodology: Mangrove extents and classifications were based on annually derived values of the normalised difference vegetation index (NDVI) applied to a median composite of cloud-masked Sentinel-2 satellite data. 
-  uses: The DEP Mangroves product supports PICTs to map the extent of mangroves as a requirement to baseline and ongoing Measurement, Reporting and Verification (MRV) for carbon removal projects, REDD+ reporting, national GHG inventory reporting requirements and National Forest Inventories. The applications also extend beyond blue carbon ecosystems to biodiversity and the mapping of natural shoreline protection. 
-  citation: Singh. S., Anderson, J. (2023). Mangrove extent - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
-  thumbnailUrl: ./images/apps/mangroves.png
+  description: Pacific Mangroves is a regional product that shows mangrove coverage extent and canopy density as percentage. The product provides greater temporal coverage (2017-2024) and allows for ongoing annual monitoring across Pacific Island Countries and Territories (PICTs). 
+  methodology: Mangrove extents and classifications were based on Automatic Mangrove Mapping Index (AMMI) approaches as applied in Suyarso and Avianto (2022). Canopy density categories of 5-20 are scaled for visualisation of percentage thresholds representing increasing canopy density. These processes are applied to the Sentinel-2 Geometric Median and Median Absolute Deviations (GeoMAD) alpha annual product. Sea and elevation masks are applied to reduce false positives. Elevation mask of 40m was applied to account for the relative tidal influence of brackish wetlands in areas like the Gulf Region of PNG.
+  uses: The DEP Mangroves product supports PICTs to map the extent of mangroves as a requirement to baseline and ongoing Measurement, Reporting and Verification (MRV) for carbon removal projects, REDD+ reporting, national GHG inventory reporting requirements, Blue Carbon accounting and National Forest Inventories. The applications also extend beyond blue carbon ecosystems to biodiversity and the mapping of natural shoreline protection.
+  citation: Singh. S., Leith, A. (2025). Mangrove extent - Digital Earth Pacific (DEP). Secretariat of the Pacific Community (SPC).
+  thumbnailUrl: ./images/apps/ammi_mangroves.png
   links:
-    - title: Explore a Mangroves Change Detection Use Case
-      url: https://maps.digitalearthpacific.org/#share=s-grUlXHhdNquRZHnKpg9C
+    - title: Explore Mangroves Change Detection 
+      url: https://maps.digitalearthpacific.org/#share=s-xcCdaX9JlNcehcRzkx1a
 
 
 - title: Geometric Median and Median Absolute Deviations (GeoMAD) (alpha)
