@@ -21,7 +21,7 @@ const Applications = () => {
       <br />
       {/* <b><a target="_blank" href="">Products Story Maps</a></b> */}
 
-      <b><a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-AuNZvkBIk2MsFjT2XV81">Products Story Maps</a></b>
+      <b><a target="_blank" href="https://maps.digitalearthpacific.org/#share=s-rOmNsWQqo7TMUyimQn35">Products Story Maps</a></b>
 
     </DefaultBanner>
   );
@@ -148,36 +148,36 @@ const Applications = () => {
         
         <table>
           <tr>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eJ4gYi3HFWnQhq8iGwq6'><img src='./images/flags/AMERICAN_SAMOA.jpg' /><br />American Samoa</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-rO4JJAmNzC3W6Aylpwpu'><img src='./images/flags/COOK_ISLANDS.jpg' /><br />Cook Islands</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-qRJVh0fj8GY45grDOn3Y'><img src='./images/flags/FSM.jpg' /><br />Federated States<br />of Micronesia</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-Ajn9EF7tCX95qVlKqnui'><img src='./images/flags/FIJI_ISLANDS.jpg' /><br />Fiji</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-y7WBCHl8o8PIufh8SO3u'><img src='./images/flags/fp.png' /><br />French Polynesia</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-kmD7UNxuAwHaB89TfAWq'><img src='./images/flags/GUAM.jpg' /><br />Guam</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-au4PuHTlFEDoQUxTIlUI'><img src='./images/flags/KIRIBATI.jpg' /><br />Kiribati</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-jPMRHNRRRX1R5sVqqwfm'><img src='./images/flags/MARSHALL_ISLANDS.jpg' /><br />Marshall Islands</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-wO0kxRupsI049nNxAGyc'><img src='./images/flags/AMERICAN_SAMOA.jpg' /><br />American Samoa</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-f500tFzWYGqbaBq4tJSn'><img src='./images/flags/COOK_ISLANDS.jpg' /><br />Cook Islands</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-3VVvwa1It5btS6pqXbVW'><img src='./images/flags/FSM.jpg' /><br />Federated States<br />of Micronesia</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-mvr0zjyTBNJLfivzvbr4'><img src='./images/flags/FIJI_ISLANDS.jpg' /><br />Fiji</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-gEjkCb4gomIObxVoL2fu'><img src='./images/flags/fp.png' /><br />French Polynesia</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-7LzAd24KgvxDNnmMZ7Mr'><img src='./images/flags/GUAM.jpg' /><br />Guam</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-5KvpyX7KfU9kYgsdV50O'><img src='./images/flags/KIRIBATI.jpg' /><br />Kiribati</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-fXHsmiXLVrZFyFlMNUgr'><img src='./images/flags/MARSHALL_ISLANDS.jpg' /><br />Marshall Islands</a></td>
 
 
           </tr>
           <tr>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-02FLjZSACywNaWI7gP6h'><img src='./images/flags/NAURU.jpg' /><br />Nauru</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-qMlDszL0OER1CtalAfMX'><img src='./images/flags/nc.png' /><br />New Caledonia</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-pHdm4F0rJVvtReaCkY89'><img src='./images/flags/NIUE.jpg' /><br />Niue</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-3IkvAXGDCb5aPKNXw5Hk'><img src='./images/flags/NORTHERN_MARIANA_ISLANDS.jpg' /><br />Northern Mariana Islands</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-1Y2o2IwHi4SibA0Zf26F'><img src='./images/flags/PALAU.jpg' /><br />Palau</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-1GL4fLABgF99QMjoJe0O'><img src='./images/flags/PAPUA_NEW_GUINEA.jpg' /><br />Papua New Guinea</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-i7j7YlGgKBckRb23ndNq'><img src='./images/flags/PITCAIRN.jpg' /><br />Pitcairn</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-03uD77o3gezhvC91imOH'><img src='./images/flags/SAMOA.jpg' /><br />Samoa</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eRgTfBnwsKAdU510Fy52'><img src='./images/flags/NAURU.jpg' /><br />Nauru</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-tg5tzaMszkZRnUX0E9sS'><img src='./images/flags/nc.png' /><br />New Caledonia</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-bP0yoYdwBU9dLVf5muzJ'><img src='./images/flags/NIUE.jpg' /><br />Niue</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-uNfml4aq1npY4DFY0geW'><img src='./images/flags/NORTHERN_MARIANA_ISLANDS.jpg' /><br />Northern Mariana Islands</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-vtauj0vSsCUgmDEANDEQ'><img src='./images/flags/PALAU.jpg' /><br />Palau</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-07Poe2kzFICKtfVkeBfq'><img src='./images/flags/PAPUA_NEW_GUINEA.jpg' /><br />Papua New Guinea</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-dwAVRfsVY1NCS0y2syif'><img src='./images/flags/PITCAIRN.jpg' /><br />Pitcairn</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-c7Gh3ORm1MQgzwUCADvV'><img src='./images/flags/SAMOA.jpg' /><br />Samoa</a></td>
 
 
           </tr>
           <tr>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-6HCRrGq9foiZSswdK4lB'><img src='./images/flags/SOLOMON_ISLANDS.jpg' /><br />Solomon Islands</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-yZl0qnP5lwwM7L8dttkA'><img src='./images/flags/TOKELAU.jpg' /><br />Tokelau</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-nrZ5yIsE4OYFUFGTtkfI'><img src='./images/flags/TONGA.jpg' /><br />Tonga</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-mK5a0Q2yqn19yth6dYaa'><img src='./images/flags/TUVALU.jpg' /><br />Tuvalu</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eTUFLw6pVi9b2JVjxUHj'><img src='./images/flags/VANUATU.jpg' /><br />Vanuatu</a></td>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-r27iOJBnYNjzrU6jaX1A'><img src='./images/flags/france.png' /><br />Wallis And Futuna</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-9RlCGsfSluDHdpWfGBjj'><img src='./images/flags/SOLOMON_ISLANDS.jpg' /><br />Solomon Islands</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-iILIFTlGaIzN41Z37fti'><img src='./images/flags/TOKELAU.jpg' /><br />Tokelau</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-jhFezYJKxsekm3v98ucB'><img src='./images/flags/TONGA.jpg' /><br />Tonga</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-2RyWoivKljo00Aujeoza'><img src='./images/flags/TUVALU.jpg' /><br />Tuvalu</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-mtrkrXhNXpBqC29NHIeD'><img src='./images/flags/VANUATU.jpg' /><br />Vanuatu</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-8DBa1z1Gp2nG6mTXwLOO'><img src='./images/flags/france.png' /><br />Wallis And Futuna</a></td>
 
           </tr>
 
