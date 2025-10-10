@@ -48,7 +48,7 @@ export const HeaderBar: React.FC = () => {
         Regional Products
       </HeaderLink>
 
-      <HeaderLink external to="https://dev--coastline-change-dashboard.netlify.app">
+      <HeaderLink external to="https://dashboards.digitalearthpacific.org">
         Dashboards
       </HeaderLink>
 
