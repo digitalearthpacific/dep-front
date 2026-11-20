@@ -160,7 +160,7 @@ const Applications = () => {
 
           </tr>
           <tr>
-            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eRgTfBnwsKAdU510Fy52'><img src='./images/flags/NAURU.jpg' /><br />Nauru</a></td>
+            <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-eRgTfBnwsKAdU510Fy52'><img src='./images/flags/NAOERO.jpg' /><br />Naoero</a></td>
             <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-tg5tzaMszkZRnUX0E9sS'><img src='./images/flags/nc.png' /><br />New Caledonia</a></td>
             <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-bP0yoYdwBU9dLVf5muzJ'><img src='./images/flags/NIUE.jpg' /><br />Niue</a></td>
             <td style={{ padding: '20px', textAlign: 'center' }}><a target="_blank" href='https://maps.digitalearthpacific.org/#share=s-uNfml4aq1npY4DFY0geW'><img src='./images/flags/NORTHERN_MARIANA_ISLANDS.jpg' /><br />Northern Mariana Islands</a></td>
