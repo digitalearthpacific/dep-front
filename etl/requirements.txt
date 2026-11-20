@@ -12,3 +12,10 @@ numpydoc==1.1.0
 pyyaml==5.4.1
 requests
 sphinx==3.5.4
+# Sphinx 3.x leaves these unpinned; newer releases require Sphinx>=5
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+alabaster==0.7.13
